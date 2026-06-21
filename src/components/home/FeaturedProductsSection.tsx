@@ -11,8 +11,30 @@ interface Product {
   name: string;
   category: string;
   brand: string;
+  productType?: string;
   marketPrice: number;
   chittetyPrice: number;
+}
+
+function toSlug(productType: string): string {
+  return productType.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
+
+function ProductImage({ productType }: { productType: string }) {
+  const [loaded, setLoaded] = useState(false);
+  const slug = toSlug(productType);
+  const src = `/images/products/${slug}/angle-1.png`;
+
+  useEffect(() => {
+    if (!productType) return;
+    const el = new Image();
+    el.onload = () => setLoaded(true);
+    el.onerror = () => setLoaded(false);
+    el.src = src;
+  }, [src, productType]);
+
+  if (loaded) return <img src={src} alt="" className="w-full h-full object-cover" />;
+  return <Package className="h-10 w-10 text-[#D1D5DB]" />;
 }
 
 const fallbackProducts: Product[] = [
@@ -61,8 +83,8 @@ export default function FeaturedProductsSection() {
               onClick={() => viewProduct(product.sku)}
               className="cursor-pointer rounded-lg border border-[#E5E7EB] bg-white p-5 transition-shadow hover:shadow-sm"
             >
-              <div className="mb-4 flex h-36 items-center justify-center rounded-md bg-[#FAFAFA]">
-                <Package className="h-10 w-10 text-[#D1D5DB]" />
+              <div className="mb-4 flex h-36 items-center justify-center rounded-md bg-[#FAFAFA] overflow-hidden">
+                <ProductImage productType={product.productType || ''} />
               </div>
               <Badge className="mb-2 bg-[#C8A44D] text-white hover:bg-[#B8943F]">
                 10% OFF

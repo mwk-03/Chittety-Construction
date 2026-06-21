@@ -1,0 +1,2402 @@
+Total tasks: 165
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "deadbolt lock side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail deadbolt lock, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "deadbolt lock installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of deadbolt lock, front view, white background, studio lighting"
+📐 Size: 1024x1024
+✅ File saved to: public/images/products/deadbolt/angle-3.png
+🎉 Image generation completed!
+✅ File saved to: public/images/products/deadbolt/angle-4.png
+🎉 Image generation completed!
+Progress: 4 / 165 done, 2 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "galvanized round pipe side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "deadbolt lock packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail galvanized round pipe, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of galvanized round pipe, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 8 / 165 done, 6 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "galvanized round pipe packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "galvanized round pipe installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "brass door hinge side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of brass door hinge, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 12 / 165 done, 10 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail brass door hinge, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "brass door hinge installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "brass door hinge packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of foam board panel insulation, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 16 / 165 done, 14 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "foam board panel insulation side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail foam board panel insulation, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "foam board panel insulation packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "foam board panel insulation installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 20 / 165 done, 18 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "20V cordless drill installed in construction, realistic building"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail 20V cordless drill, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of 20V cordless drill, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "20V cordless drill side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 24 / 165 done, 22 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of tile leveling clips, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail tile leveling clips, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "20V cordless drill packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "tile leveling clips side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 28 / 165 done, 26 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "claw hammer fiberglass side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "tile leveling clips packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "tile leveling clips installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of claw hammer fiberglass, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 32 / 165 done, 30 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "claw hammer fiberglass packaging branding, retail display, white background"
+🚀 Initializing Z-AI SDK...
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of joint compound bucket, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail claw hammer fiberglass, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "claw hammer fiberglass installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 36 / 165 done, 34 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "joint compound bucket packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail joint compound bucket, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "joint compound bucket installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "joint compound bucket side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 40 / 165 done, 38 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail masonry concrete screw, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of masonry concrete screw, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "masonry concrete screw installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "masonry concrete screw side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 44 / 165 done, 42 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail zinc hex nut, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of zinc hex nut, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "zinc hex nut side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "masonry concrete screw packaging branding, retail display, white background"
+📐 Size: 1024x1024
+Progress: 48 / 165 done, 46 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of tile thinset mortar bag, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "zinc hex nut installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "tile thinset mortar bag side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "zinc hex nut packaging branding, retail display, white background"
+📐 Size: 1024x1024
+Progress: 52 / 165 done, 50 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail tile thinset mortar bag, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of square steel tubing, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "tile thinset mortar bag packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "tile thinset mortar bag installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 56 / 165 done, 54 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail square steel tubing, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "square steel tubing packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "square steel tubing side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "square steel tubing installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 60 / 165 done, 58 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "zinc flat washer installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of zinc flat washer, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "zinc flat washer side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail zinc flat washer, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 64 / 165 done, 62 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "zinc flat washer packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of fiber cement siding plank, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "fiber cement siding plank side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail fiber cement siding plank, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 68 / 165 done, 66 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "fiber cement siding plank packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "fiber cement siding plank installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "fiberglass batt roll insulation side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of fiberglass batt roll insulation, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 72 / 165 done, 70 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of flooring underlayment roll, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "fiberglass batt roll insulation installed in construction, realistic building"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "fiberglass batt roll insulation packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail fiberglass batt roll insulation, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 76 / 165 done, 74 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "flooring underlayment roll packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail flooring underlayment roll, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "flooring underlayment roll side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "flooring underlayment roll installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 80 / 165 done, 78 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail pliers set, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of pliers set, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "pliers set installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "pliers set side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 84 / 165 done, 82 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "sanded tile grout bag side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of sanded tile grout bag, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "pliers set packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail sanded tile grout bag, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 88 / 165 done, 86 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "sanded tile grout bag packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "sanded tile grout bag installed in construction, realistic building"
+🎨 Generating image: "Professional product photography of E7018 welding electrode, front view, white background, studio lighting"
+📐 Size: 1024x1024
+📐 Size: 1024x1024
+🎨 Generating image: "E7018 welding electrode side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 92 / 165 done, 90 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of pipe wrench adjustable, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "E7018 welding electrode installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail E7018 welding electrode, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "E7018 welding electrode packaging branding, retail display, white background"
+📐 Size: 1024x1024
+Progress: 96 / 165 done, 94 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail pipe wrench adjustable, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "pipe wrench adjustable packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "pipe wrench adjustable installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "pipe wrench adjustable side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 100 / 165 done, 98 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of hex anchor bolt galvanized, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "hex anchor bolt galvanized side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "hex anchor bolt galvanized installed in construction, realistic building"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail hex anchor bolt galvanized, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 104 / 165 done, 102 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of hot-rolled steel flat bar, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "hex anchor bolt galvanized packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "hot-rolled steel flat bar side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail hot-rolled steel flat bar, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 108 / 165 done, 106 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "hot-rolled steel flat bar packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "galvanized steel angle iron side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "hot-rolled steel flat bar installed in construction, realistic building"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of galvanized steel angle iron, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 112 / 165 done, 110 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail galvanized steel angle iron, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "galvanized steel angle iron installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of multi-bit screwdriver set, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "galvanized steel angle iron packaging branding, retail display, white background"
+📐 Size: 1024x1024
+Progress: 116 / 165 done, 114 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "multi-bit screwdriver set installed in construction, realistic building"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "multi-bit screwdriver set packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "multi-bit screwdriver set side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail multi-bit screwdriver set, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 120 / 165 done, 118 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of waterproofing membrane liquid, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "waterproofing membrane liquid installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "waterproofing membrane liquid side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail waterproofing membrane liquid, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 124 / 165 done, 122 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of drawer slide mechanism, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "drawer slide mechanism side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "waterproofing membrane liquid packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail drawer slide mechanism, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 128 / 165 done, 126 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "metal cutting grinding disc side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "drawer slide mechanism packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "drawer slide mechanism installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of metal cutting grinding disc, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 132 / 165 done, 130 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "metal cutting grinding disc packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of stainless cabinet drawer pull, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail metal cutting grinding disc, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "metal cutting grinding disc installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 136 / 165 done, 134 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "stainless cabinet drawer pull packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail stainless cabinet drawer pull, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "stainless cabinet drawer pull side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "stainless cabinet drawer pull installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 140 / 165 done, 138 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of chrome pull-out wire basket, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "chrome pull-out wire basket installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "chrome pull-out wire basket side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail chrome pull-out wire basket, macro, sharp focus, white background"
+📐 Size: 1024x1024
+Progress: 144 / 165 done, 142 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "chrome pull-out wire basket packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail commercial door closer, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of commercial door closer, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "commercial door closer side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 148 / 165 done, 146 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "entry door lockset side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "commercial door closer packaging branding, retail display, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of entry door lockset, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "commercial door closer installed in construction, realistic building"
+📐 Size: 1024x1024
+Progress: 152 / 165 done, 150 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail entry door lockset, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Professional product photography of soft close cabinet hinge, front view, white background, studio lighting"
+📐 Size: 1024x1024
+🎨 Generating image: "entry door lockset installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "entry door lockset packaging branding, retail display, white background"
+📐 Size: 1024x1024
+Progress: 156 / 165 done, 154 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Close-up detail soft close cabinet hinge, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "soft close cabinet hinge packaging branding, retail display, white background"
+🎨 Generating image: "soft close cabinet hinge installed in construction, realistic building"
+📐 Size: 1024x1024
+📐 Size: 1024x1024
+🎨 Generating image: "soft close cabinet hinge side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+Progress: 160 / 165 done, 158 failed
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Phillips wood screw installed in construction, realistic building"
+📐 Size: 1024x1024
+🎨 Generating image: "Phillips wood screw side angle 45-degree, white background, product catalog"
+📐 Size: 1024x1024
+🎨 Generating image: "Close-up detail Phillips wood screw, macro, sharp focus, white background"
+📐 Size: 1024x1024
+🎨 Generating image: "Professional product photography of Phillips wood screw, front view, white background, studio lighting"
+📐 Size: 1024x1024
+Progress: 164 / 165 done, 162 failed
+🚀 Initializing Z-AI SDK...
+🎨 Generating image: "Phillips wood screw packaging branding, retail display, white background"
+📐 Size: 1024x1024
+Progress: 168 / 165 done, 163 failed
+DONE. Total: 165, Failed: 163
+
+stderr:
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)
+
+❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Failed to make image generation request: 260 |                 headers: headers,
+261 |                 body: JSON.stringify(requestBody),
+262 |             });
+263 |             if (!response.ok) {
+264 |                 const errorBody = await response.text();
+265 |                 throw new Error(`API request failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+      at createImageGeneration (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:265:27)
+      at async handleImage (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:716:54)
+      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1077:23)

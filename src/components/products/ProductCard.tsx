@@ -1,9 +1,15 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { Package } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { useNavigation } from '@/store/navigation';
+
+// Helper to get image slug from product type
+function toSlug(productType: string): string {
+  return productType.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
 
 export interface Product {
   sku: string;
@@ -31,6 +37,17 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   const { viewProduct, openQuoteDialog } = useNavigation();
+  const [mainImage, setMainImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    const slug = toSlug(product.productType);
+    const img = `/images/products/${slug}/angle-1.png`;
+    // Check if image exists by attempting to load it
+    const el = new Image();
+    el.onload = () => setMainImage(img);
+    el.onerror = () => setMainImage(null);
+    el.src = img;
+  }, [product.productType]);
 
   const discountPercent = product.discount ? Math.round(product.discount * 100) : 0;
 
@@ -43,9 +60,18 @@ export function ProductCard({ product }: ProductCardProps) {
       onClick={() => viewProduct(product.sku)}
       className="group cursor-pointer rounded-lg border border-[#E5E7EB] bg-white transition-shadow hover:shadow-sm overflow-hidden"
     >
-      {/* Image placeholder */}
-      <div className="relative aspect-square bg-[#F3F4F6] flex items-center justify-center">
-        <Package className="size-10 text-[#D1D5DB] group-hover:text-[#9CA3AF] transition-colors" />
+      {/* Product image */}
+      <div className="relative aspect-square bg-[#F3F4F6] flex items-center justify-center overflow-hidden">
+        {mainImage ? (
+          <img
+            src={mainImage}
+            alt={product.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            loading="lazy"
+          />
+        ) : (
+          <Package className="size-10 text-[#D1D5DB] group-hover:text-[#9CA3AF] transition-colors" />
+        )}
         {discountPercent > 0 && (
           <Badge className="absolute top-2.5 left-2.5 bg-[#C8A44D] text-white text-[10px] font-semibold px-1.5 py-0.5 border-0 hover:bg-[#C8A44D]">
             {discountPercent}% OFF

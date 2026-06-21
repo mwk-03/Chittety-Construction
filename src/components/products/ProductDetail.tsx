@@ -90,9 +90,28 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
     !product.availability.toLowerCase().includes('out of stock') &&
     !product.availability.toLowerCase().includes('discontinued');
 
-  const thumbnails = product?.images?.length
-    ? product.images.slice(0, 7)
-    : Array.from({ length: 5 }, (_, i) => null);
+  // Generate image paths based on product type
+  function toSlug(t: string): string {
+    return t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+  }
+  const slug = product?.productType ? toSlug(product.productType) : '';
+  const productImages = slug ? Array.from({ length: 5 }, (_, i) => `/images/products/${slug}/angle-${i+1}.png`) : [];
+  const [loadedImages, setLoadedImages] = useState<boolean[]>([]);
+
+  useEffect(() => {
+    if (!slug) { setLoadedImages([]); return; }
+    const checks = productImages.map((img) => {
+      return new Promise<boolean>((resolve) => {
+        const el = new Image();
+        el.onload = () => resolve(true);
+        el.onerror = () => resolve(false);
+        el.src = img;
+      });
+    });
+    Promise.all(checks).then(setLoadedImages);
+  }, [slug]);
+
+  const thumbnails = productImages;
 
   const handleRequestQuote = () => {
     if (!product) return;
@@ -175,22 +194,30 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
           {/* Left: Image */}
           <div className="space-y-3">
             {/* Main image */}
-            <div className="aspect-square rounded-lg bg-[#F3F4F6] flex items-center justify-center border border-[#E5E7EB]">
-              <Package className="size-20 text-[#D1D5DB]" />
+            <div className="aspect-square rounded-lg bg-[#F3F4F6] flex items-center justify-center border border-[#E5E7EB] overflow-hidden">
+              {loadedImages[selectedThumb] ? (
+                <img src={thumbnails[selectedThumb]} alt={product?.name || ''} className="w-full h-full object-cover" />
+              ) : (
+                <Package className="size-20 text-[#D1D5DB]" />
+              )}
             </div>
             {/* Thumbnails */}
             <div className="flex gap-2 overflow-x-auto pb-1">
-              {thumbnails.map((_, idx) => (
+              {thumbnails.map((img, idx) => (
                 <button
                   key={idx}
                   onClick={() => setSelectedThumb(idx)}
-                  className={`shrink-0 size-16 rounded-md border flex items-center justify-center transition-colors ${
+                  className={`shrink-0 size-16 rounded-md border flex items-center justify-center transition-colors overflow-hidden ${
                     selectedThumb === idx
                       ? 'border-[#111827] ring-1 ring-[#111827]'
                       : 'border-[#E5E7EB] hover:border-[#D1D5DB]'
                   } bg-[#F9FAFB]`}
                 >
-                  <Package className="size-5 text-[#D1D5DB]" />
+                  {loadedImages[idx] ? (
+                    <img src={img} alt={`Angle ${idx+1}`} className="w-full h-full object-cover" />
+                  ) : (
+                    <Package className="size-5 text-[#D1D5DB]" />
+                  )}
                 </button>
               ))}
             </div>
