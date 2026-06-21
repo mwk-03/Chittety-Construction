@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  sku             String   @id
+  name            String
+  category        String
+  subcategory     String   @default("")
+  brand           String   @default("")
+  productType     String   @default("")
+  specification   String   @default("")
+  unit            String   @default("Each")
+  moq             Int      @default(1)
+  marketPrice     Float
+  discount        Float    @default(0.1)
+  chittetyPrice   Float
+  availability    String   @default("Vendor Available / Confirm Stock")
+  priceBasis      String   @default("Market reference")
+  shortDescription String  @default("")
+  codePrefix      String   @default("")
+}
+
+model Service {
+  code          String  @id
+  category      String
+  name          String
+  startingPrice Float
+  priceType     String  @default("Starting From")
+  notes         String  @default("")
+  cta           String  @default("")
+  source        String  @default("")
+}
+
+model QuoteRequest {
+  id                Int      @id @default(autoincrement())
+  name              String
+  phone             String
+  email             String
+  company           String   @default("")
+  projectType       String   @default("")
+  category          String   @default("")
+  sku               String   @default("")
+  quantity          Int      @default(1)
+  deliveryLocation String   @default("")
+  message           String   @default("")
+  createdAt         DateTime @default(now())
+}
