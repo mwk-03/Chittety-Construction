@@ -19,7 +19,7 @@ const CATEGORIES = [
 ];
 
 export function ProductsPage() {
-  const { selectedCategory, selectedProductSku, viewProduct, navigateTo } = useNavigation();
+  const { selectedCategory, selectedProductSku, closeProductDetail } = useNavigation();
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
@@ -243,7 +243,7 @@ export function ProductsPage() {
         <ProductDetail
           sku={selectedProductSku}
           open={true}
-          onClose={() => navigateTo('products')}
+          onClose={closeProductDetail}
         />
       )}
     </div>

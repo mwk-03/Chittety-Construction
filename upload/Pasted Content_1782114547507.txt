@@ -1,0 +1,1682 @@
+CHITTETY CONSTRUCTION — COMPLETE CONTINUATION COMMAND FOR GLM 5.2
+
+Continue the Chittety Construction website project from the current build.
+
+Do not restart from scratch.
+
+Preserve the current good minimal corporate preview, header, footer, homepage direction, product catalog layout, product detail drawer, mobile layout, sticky mobile CTA bar, spacing, typography, colors, and overall clean professional UI.
+
+Now audit everything, complete whatever is missing, fix the product image issue, resume image generation when API credits/rate limit allow, expand all thin content pages, remove placeholders where pages are ready, and make the website production-ready.
+
+PROJECT POSITIONING
+
+Chittety Construction is not a small handyman website.
+
+Chittety Construction is not a technician-booking marketplace.
+
+Chittety Construction is not a normal ecommerce checkout website.
+
+It is a premium construction supply, procurement, vendor network, wholesale distribution, B2B/B2C material supply, and project support company based in Plano / Dallas–Fort Worth, Texas.
+
+The website must present Chittety Construction as a serious, trustworthy, established, corporate construction supply and vendor network company with:
+
+* 10+ years industry experience
+* Ground-level vendor experience
+* Strong vendor network across the USA
+* Construction material supply
+* Product sourcing
+* Wholesale distribution
+* Contractor supply
+* B2C material supply
+* B2B project procurement
+* Vendor sourcing
+* BOQ/material estimation support
+* Construction service support
+* Dallas–Fort Worth and nationwide procurement support
+
+Do not bring back old wording such as:
+
+* Technician marketplace
+* Book Now
+* Pricing Plans
+* Book Site Visit
+* Old service-booking positioning
+* Login/Register as main CTAs
+
+CURRENT GOOD WORK TO PRESERVE
+
+The current preview has these good elements. Keep them:
+
+* Top announcement bar
+* Clean corporate header
+* Dark minimal hero section
+* Corporate typography
+* Product catalog page
+* Product filters
+* Product cards
+* Product detail drawer
+* Multi-image thumbnail area
+* Corporate footer
+* Mobile sticky bottom bar with Call / WhatsApp / Quote
+* Minimal corporate colors
+* Spacious layout
+
+MAIN WORK NOW
+
+1. Fix product images showing placeholder grey cube icons.
+2. Continue product image generation when API credits/rate limit allow.
+3. Add a proper fallback image until generated images are ready.
+4. Expand About, Resources, Construction Guides, Material Selection Guides, Warranty, Delivery, Support Center, FAQ, and corporate information pages.
+5. Remove “Coming Soon” badges where content exists.
+6. Make every card and footer link clickable.
+7. Fix mobile CTA contrast.
+8. Audit and complete all missing pages, links, images, routes, and content.
+9. Run production build and confirm deployment readiness.
+
+RULE: IF ANYTHING IS MISSING, START THE WORK
+
+Do not only report missing work.
+
+If images are missing, continue generating them.
+
+If image paths are wrong, fix paths.
+
+If mappings are wrong, fix mappings.
+
+If slugs are mismatched, create one reliable slug system.
+
+If content is thin, expand it.
+
+If cards say Coming Soon but content exists, remove Coming Soon.
+
+If footer links are dead, create routes.
+
+If mobile contrast is bad, fix it.
+
+If production build fails, fix build errors.
+
+Only stop if blocked by something external, such as API credit limit, missing API key, missing deployment permission, or unavailable production credentials.
+
+If blocked, clearly state:
+
+* What is blocked
+* What has already been completed
+* What remains
+* Exact resume command
+* How to continue without repeating finished work
+
+DESIGN RULES
+
+Keep the site premium, minimal, corporate, and procurement-focused.
+
+Design inspiration:
+
+* Apple
+* Stripe
+* Notion
+* Linear
+* McKinsey-style corporate layout
+* Modern B2B SaaS websites
+* Premium construction procurement companies
+
+Avoid:
+
+* Neon colors
+* Bright orange construction overload
+* Tacky gradients
+* Heavy shadows
+* Crowded marketplace grids
+* Cheap contractor template look
+* Flashy animations
+* Dead cards
+* Broken images
+* Empty pages
+
+Color palette:
+
+Primary:
+#111827
+
+Secondary:
+#1F2937
+
+Background:
+#FAFAFA
+
+Surface:
+#FFFFFF
+
+Border:
+#E5E7EB
+
+Text:
+#111827
+
+Secondary text:
+#6B7280
+
+Accent:
+#C8A44D
+
+Use accent only for CTA buttons, active states, badges, and key highlights.
+
+Typography:
+
+* Inter Tight or Manrope for headings
+* Inter for body
+
+Use:
+
+* Generous whitespace
+* Proper margins
+* Proper section gaps
+* Clean grids
+* Clickable cards
+* Clear hierarchy
+* Mobile-first layout
+* Large tap targets
+* No clutter
+
+HEADER REQUIREMENTS
+
+Header navigation:
+
+Home
+About
+Products
+Services
+Industries
+Vendor Network
+Resources
+Contact
+
+Right side:
+
+Call Now
+Request Quote
+
+Top announcement bar:
+
+Construction Materials • Wholesale Supply • Vendor Sourcing • Project Procurement Solutions Across Texas
+
+Keep the bar thin, premium, and subtle.
+
+MOBILE HERO CTA FIX
+
+The mobile hero currently has a poor-contrast “Request Quote” button.
+
+Fix mobile hero buttons:
+
+Primary button:
+Browse Products
+
+* Gold background #C8A44D
+* Clearly readable text
+* Full-width on mobile
+
+Secondary button:
+Request Quote
+
+* White background or transparent background
+* Dark readable text
+* Clear border
+* Full-width on mobile
+
+Both mobile buttons must be readable and easy to tap.
+
+PRODUCT IMAGE ISSUE — FULL FIX
+
+The current product catalog and product detail drawer are still showing grey placeholder cube icons.
+
+Fix this completely.
+
+Expected product image system:
+
+Each product type should have 5 to 7 images:
+
+1. Front view
+2. Side angle / 45-degree view
+3. Close-up detail
+4. Installed / use-case view
+5. Packaging / brand view
+6. Technical/specification view, if available
+7. Additional angle, if available
+
+Expected source path:
+
+/public/images/products/{product-type-slug}/angle-1.png
+/public/images/products/{product-type-slug}/angle-2.png
+/public/images/products/{product-type-slug}/angle-3.png
+/public/images/products/{product-type-slug}/angle-4.png
+/public/images/products/{product-type-slug}/angle-5.png
+
+Correct browser path:
+
+/images/products/{product-type-slug}/angle-1.png
+
+Correct example:
+
+/images/products/southwire-14-awg-thhn-copper-wire/angle-1.png
+
+Incorrect examples:
+
+/public/images/products/...
+public/images/products/...
+/home/z/my-project/public/images/...
+src/public/images/...
+
+PRODUCT IMAGE AUDIT
+
+Run a full image audit.
+
+Report:
+
+1. Total products detected
+2. Total unique product types detected
+3. Expected image folders
+4. Existing image folders
+5. Expected image count
+6. Existing image count
+7. Product types with 5+ images
+8. Product types with fewer than 5 images
+9. Product types with zero images
+10. Products where slug does not match image folder
+11. Broken image URLs
+12. Products falling back to placeholder
+
+The current product catalog shows 1,500 products.
+
+Previous progress reported around:
+
+* 116 unique product types
+* Expected minimum 580 images
+* Around 141 images generated across 37 product types
+
+Verify actual current numbers from the codebase and catalog data.
+
+IMAGE GENERATION RESUME RULE
+
+Do not regenerate finished images.
+
+Create or use a resumable tracker:
+
+scripts/image-generation-state.json
+
+Track:
+
+* product_type
+* slug
+* angle_1 status
+* angle_2 status
+* angle_3 status
+* angle_4 status
+* angle_5 status
+* generated_at
+* error
+* retry_needed
+
+If API credits or rate limit are not refreshed:
+
+1. Save state.
+2. Stop image generation gracefully.
+3. Do not lose progress.
+4. Do not break the website.
+5. Use fallback images for missing products.
+6. Provide exact resume command.
+
+Prioritize currently visible products first:
+
+* Southwire 14 AWG THHN Copper Wire
+* Leviton 12 AWG THHN Copper Wire
+* Square D 10 AWG THHN Copper Wire
+* Schneider Electric 8 AWG THHN Copper Wire
+
+Then continue by category:
+
+1. Electrical & Wiring
+2. Plumbing & Bathroom
+3. Lighting / HVAC / Pumps
+4. Flooring / Roofing / Building
+5. Hardware / Steel / Tools
+
+PRODUCT SLUG RULE
+
+Create one reliable slugify function and use it everywhere.
+
+Slugify must:
+
+* Convert to lowercase
+* Trim spaces
+* Replace & with “and”
+* Replace / with hyphen
+* Remove punctuation
+* Remove special characters
+* Convert multiple spaces/hyphens to one hyphen
+* Keep numbers and units clean
+* Match generated folder names
+
+Use the same slug in:
+
+* Product data
+* Product image folder
+* Product image mapping
+* ProductCard
+* ProductDetail
+* FeaturedProductsSection
+
+If existing folder names do not match product slugs, either rename folders or create alias mapping.
+
+IMAGE MAPPING FILE
+
+If product-images.json is unreliable, convert it to:
+
+src/lib/data/product-images.ts
+
+Required structure:
+
+export const productImages = {
+"southwire-14-awg-thhn-copper-wire": [
+"/images/products/southwire-14-awg-thhn-copper-wire/angle-1.png",
+"/images/products/southwire-14-awg-thhn-copper-wire/angle-2.png",
+"/images/products/southwire-14-awg-thhn-copper-wire/angle-3.png",
+"/images/products/southwire-14-awg-thhn-copper-wire/angle-4.png",
+"/images/products/southwire-14-awg-thhn-copper-wire/angle-5.png"
+]
+};
+
+Also export helper functions:
+
+getProductSlug(product)
+getProductImages(product)
+getPrimaryProductImage(product)
+getProductImageGallery(product)
+
+All image components must use these helpers.
+
+COMPONENTS TO VERIFY AND UPDATE
+
+Update:
+
+* ProductCard.tsx
+* ProductDetail.tsx
+* FeaturedProductsSection.tsx
+* ProductCatalog.tsx
+* ProductImage component
+* Any placeholder image component
+
+ProductCard must show:
+
+* Product image
+* 10% OFF badge
+* Product name
+* SKU
+* Brand/category
+* Availability
+* Chittety discounted price
+* Market reference price
+* Request Quote
+* View Details
+
+ProductDetail must show:
+
+* Large main image
+* Clickable thumbnails
+* 5 to 7 images where available
+* Gallery labels
+* Product name
+* SKU
+* Brand
+* Category
+* Price
+* MOQ
+* Unit
+* Availability
+* Request Quote
+* Call Now
+* WhatsApp
+* Description
+* Specifications
+* Applications
+* Related products
+* Product disclaimer
+
+Gallery labels:
+
+1. Front View
+2. Side Angle
+3. Close-Up Detail
+4. Installed Use Case
+5. Packaging / Brand View
+6. Technical View
+7. Additional Angle
+
+FALLBACK IMAGE RULE
+
+Until all generated images are ready, do not show a grey cube icon.
+
+Create:
+
+/public/images/products/placeholder-construction-product.png
+
+The fallback must look premium and branded.
+
+It should include:
+
+* Clean white/light grey background
+* Minimal construction supply feel
+* Text: Product Image Coming Soon
+* Small text: Request actual product photos before ordering
+
+Use fallback only when generated image does not exist.
+
+Never show broken images.
+
+DIRECT IMAGE URL TEST
+
+After mapping or generating images, test direct URLs:
+
+/images/products/southwire-14-awg-thhn-copper-wire/angle-1.png
+/images/products/leviton-12-awg-thhn-copper-wire/angle-1.png
+/images/products/square-d-10-awg-thhn-copper-wire/angle-1.png
+/images/products/schneider-electric-8-awg-thhn-copper-wire/angle-1.png
+
+If these return 404, fix public folder inclusion or path mapping.
+
+PRODUCT PRICING RULES
+
+Catalog must remain inquiry-based, not checkout-based.
+
+Every product must show:
+
+* Product code/SKU
+* Product name
+* Category
+* Subcategory
+* Brand
+* Short description
+* Technical specifications
+* Unit
+* MOQ
+* Market reference price
+* Chittety estimated discounted price
+* 10% OFF badge
+* Availability
+* Request Quote
+* Call Now
+* WhatsApp Requirement
+
+Pricing formula:
+
+Chittety estimated discounted price = market reference price × 0.90
+
+Use wording:
+
+* Market reference price
+* Chittety estimated discounted price
+* Final pricing subject to vendor availability, quantity, delivery location, product specification, and market conditions.
+
+Do not present pricing as guaranteed fixed final price.
+
+PRODUCT DETAIL DISCLAIMER
+
+Add product disclaimer on product details:
+
+Product images may be representative. Actual product appearance, packaging, brand, technical specification, and availability may vary. Final pricing is subject to vendor availability, quantity, delivery location, product specification, and market conditions. Customers should verify technical compatibility before ordering.
+
+QUOTE FLOW
+
+No checkout.
+
+Use inquiry CTAs:
+
+* Request Quote
+* Call Now
+* WhatsApp Requirement
+* Send Material List
+* Ask for Bulk Supply
+* Need Installation Too?
+
+Quote form fields:
+
+* Name
+* Phone
+* Email
+* Company Name
+* Project Type
+* Product or Service Category
+* SKU / Product Code
+* Quantity
+* Delivery Location
+* Upload Material List
+* Upload Site Photo
+* Message
+
+CONTENT DEPTH UPGRADE
+
+The current visual preview is good and minimal.
+
+Keep the cards clean.
+
+Do not overload the homepage or card grid.
+
+But internal pages must be detailed, professional, corporate, and informative.
+
+Cards should remain short and clean.
+
+When a user clicks a card, open a full detailed page with:
+
+* Rich information
+* Structured headings
+* Paragraphs
+* Process sections
+* FAQs
+* Disclaimers
+* CTA blocks
+
+Remove “Coming Soon” badges wherever page content exists.
+
+Replace “Coming Soon” with:
+
+* Learn More
+* View Guide
+* Read Details
+* Request Support
+
+Do not make the homepage visually heavy.
+
+Depth must exist inside individual pages.
+
+ABOUT PAGE — FULL CORPORATE HISTORY
+
+Create or expand the About page.
+
+Page Title:
+About Chittety Construction
+
+Hero Heading:
+A Trusted Construction Supply, Vendor Network & Procurement Partner
+
+Hero Subheading:
+For more than 10 years, Chittety Construction has worked at the ground level of the construction industry, building strong relationships with vendors, suppliers, contractors, technicians, project teams, and material providers across the United States.
+
+Section 1: Company Overview
+
+Chittety Construction is a construction supply, sourcing, vendor network, wholesale distribution, and project support company serving residential, commercial, industrial, and infrastructure-related requirements. The company is built on more than a decade of practical industry experience, direct vendor relationships, and ground-level understanding of how construction projects actually move from planning to material sourcing, delivery, installation, and maintenance.
+
+Unlike a standard contractor listing website or a simple service-booking platform, Chittety Construction operates as a trusted bridge between customers, contractors, vendors, suppliers, and service providers. The company helps clients identify the right materials, compare available options, request quotations, source products through vendor networks, and coordinate service support where required.
+
+The business supports a wide range of construction categories including plumbing, sewer line materials, pumps and water systems, electrical wiring, lighting, flooring, tiles, roofing, waterproofing, steel fabrication, building materials, door hardware, modular kitchen accessories, tools, safety equipment, and project-based procurement requirements.
+
+Section 2: Our Story
+
+Chittety Construction was created with a simple but important purpose: to make construction material sourcing more dependable, transparent, and accessible for homeowners, contractors, builders, businesses, and project teams.
+
+Over the years, the company has worked closely with vendors and construction professionals at ground level. This hands-on experience has helped Chittety Construction understand the real challenges customers face while sourcing materials: inconsistent pricing, unclear product specifications, limited vendor availability, delays in supply, difficulty comparing alternatives, and lack of reliable coordination between product supply and service execution.
+
+Through consistent field experience and vendor interaction, Chittety Construction developed a strong understanding of construction supply chains and built a wide network of material providers, contractors, technicians, distributors, and specialist vendors. This network allows the company to support both small and large requirements, from single product inquiries to multi-category procurement needs for commercial and residential projects.
+
+Today, Chittety Construction is positioned as a modern construction supply and procurement platform that combines traditional vendor relationships with a clean, digital catalog experience. Customers can browse product categories, explore service offerings, understand material options, request quotations, and connect directly with the company for support.
+
+Section 3: What We Do
+
+Chittety Construction provides construction-related products, materials, sourcing assistance, vendor coordination, wholesale supply support, and service execution support.
+
+Core areas include:
+
+* Construction material supply
+* Plumbing and bathroom product sourcing
+* Sewer line and drainage material support
+* Borewell, pump, water line, and tank-related materials
+* Electrical wiring and rewiring product sourcing
+* Lighting, fan, AC, and water heater support products
+* Flooring, tiles, adhesives, grouts, trims, and finishing materials
+* Roofing, waterproofing, and exterior protection materials
+* Steel fabrication materials and support
+* Door, window, lock, and hardware products
+* Kitchen and modular kitchen accessories
+* Tools, safety equipment, and site-use products
+* Contractor supply
+* Wholesale and B2B material sourcing
+* Bulk order coordination
+* BOQ and material estimation assistance
+* Project procurement support
+
+Section 4: Our Vendor Network
+
+One of the strongest foundations of Chittety Construction is its vendor network. The company has built relationships with vendors, distributors, product suppliers, contractors, technicians, and service partners across the United States.
+
+This vendor ecosystem allows Chittety Construction to support customers with multiple product options, alternative sourcing, competitive quotations, bulk requirements, project-specific material lists, and category-wise supply assistance.
+
+The company does not limit itself to one product type or one service category. Instead, it functions as a broad construction supply and procurement partner capable of assisting across multiple trades and requirements.
+
+Vendor network support includes:
+
+* Product sourcing from trusted suppliers
+* Material comparison assistance
+* Alternative product availability
+* Bulk order coordination
+* Contractor and project supply support
+* Product availability checking
+* Brand and specification matching
+* Special-order sourcing
+* Multi-category procurement support
+* Service partner coordination where required
+
+Section 5: Our Approach
+
+Chittety Construction follows a practical, customer-focused procurement approach.
+
+Step 1: Understand the Requirement
+The customer shares the product, service, quantity, location, project type, or material list.
+
+Step 2: Review Product or Service Category
+The team reviews the category, specification, brand preference, quantity, usage purpose, and project requirement.
+
+Step 3: Vendor Evaluation
+The company checks availability, alternatives, market reference pricing, and vendor options.
+
+Step 4: Quotation Support
+The customer receives pricing guidance, quotation support, and product/service information.
+
+Step 5: Supply Coordination
+Where applicable, material supply, delivery coordination, or vendor assignment is arranged.
+
+Step 6: Project Support
+For larger or service-linked requirements, the company may assist with service coordination, installation support, or procurement planning.
+
+Section 6: Why Customers Trust Us
+
+Customers choose Chittety Construction because the company combines industry experience, vendor relationships, product knowledge, and practical project support.
+
+Key trust points:
+
+* 10+ years of industry experience
+* Ground-level vendor relationships
+* Wide construction product catalog
+* B2B and B2C supply support
+* Wholesale and bulk order assistance
+* Residential and commercial project support
+* Multi-category procurement capability
+* Transparent quotation-driven model
+* Vendor-backed sourcing approach
+* Practical knowledge of materials and site requirements
+
+Section 7: Mission
+
+Our mission is to simplify construction sourcing, procurement, and project support through trusted vendor relationships, quality product access, competitive market pricing, and dependable service coordination.
+
+Section 8: Vision
+
+Our vision is to become a trusted construction supply and procurement partner for residential, commercial, industrial, and infrastructure projects across the United States.
+
+Section 9: Values
+
+Integrity
+We believe construction supply and procurement must be built on honesty, clarity, and trust.
+
+Reliability
+We aim to support customers with dependable product information, vendor coordination, and service guidance.
+
+Quality
+We focus on sourcing from trusted suppliers and helping customers identify suitable materials for their projects.
+
+Transparency
+We provide market-reference pricing, quotation-based support, and clear disclaimers where pricing or availability may vary.
+
+Practicality
+We understand that every project has different site conditions, budgets, timelines, and technical needs.
+
+Long-Term Relationships
+We aim to build lasting relationships with customers, contractors, vendors, and project partners.
+
+Section 10: Quality Commitment
+
+Chittety Construction is committed to helping customers source reliable construction materials through trusted vendor relationships. Product quality, durability, specification matching, and suitability are important parts of the company’s sourcing approach.
+
+Because construction materials may vary by brand, application, availability, and project conditions, Chittety Construction encourages customers to verify technical compatibility before finalizing orders. The company assists by presenting product information, vendor options, and quotation support wherever possible.
+
+Section 11: Safety Commitment
+
+Construction projects involve materials, tools, electrical systems, plumbing systems, roofing, fabrication, flooring, water systems, and site-related work. Chittety Construction encourages safe product usage, responsible installation, qualified service execution, and adherence to relevant local requirements.
+
+Where installation or service work is involved, final execution should be handled by qualified professionals, licensed technicians, contractors, or approved service partners where required.
+
+Section 12: Closing CTA
+
+Heading:
+Need Construction Materials or Project Support?
+
+Text:
+Whether you are a homeowner, contractor, builder, property manager, or business owner, Chittety Construction can help you source materials, compare options, request quotations, and coordinate construction-related requirements.
+
+Buttons:
+
+* Request Quote
+* Browse Products
+* Contact Chittety Construction
+
+CONSTRUCTION GUIDES PAGE
+
+Create a detailed Construction Guides page.
+
+Page Title:
+Construction Guides
+
+Hero Heading:
+Practical Construction Knowledge for Better Project Decisions
+
+Intro:
+The Construction Guides section is designed to help homeowners, contractors, builders, facility managers, and project teams understand essential construction topics before selecting materials or requesting services. These guides explain common construction categories, product usage, planning considerations, installation basics, maintenance needs, and procurement factors.
+
+Do not keep this as a short coming-soon card.
+
+Create a full detailed page.
+
+Sections:
+
+1. Plumbing System Planning
+
+Explain:
+Plumbing planning involves understanding water supply lines, drainage lines, pipe materials, pressure requirements, fixture placement, leak prevention, and long-term maintenance. The right plumbing material depends on application, water temperature, pressure, building type, local code requirements, and installation conditions.
+
+Cover:
+
+* Water supply lines
+* Drainage lines
+* Bathroom plumbing
+* Kitchen plumbing
+* Sewer connections
+* Pipe fittings
+* Valves
+* Traps
+* Cleanouts
+* Maintenance access
+
+2. Electrical Planning
+
+Explain:
+Electrical planning includes selecting the right wire, conduit, breaker, panel, switchgear, outlets, grounding system, and safety components. Proper planning supports load capacity, safety, energy efficiency, and future expansion.
+
+Cover:
+
+* Wiring and rewiring
+* Load planning
+* Panels and breakers
+* Outlets and switches
+* Lighting circuits
+* Grounding
+* Safety devices
+* Smart electrical upgrades
+
+3. Flooring and Tile Planning
+
+Explain:
+Flooring selection depends on traffic, moisture exposure, design preference, durability, maintenance, installation surface, and budget. Tiles, vinyl, hardwood, laminate, stone, and epoxy each serve different project requirements.
+
+Cover:
+
+* Tile types
+* Adhesives
+* Grout
+* Underlayment
+* Waterproofing
+* Surface preparation
+* Floor trims
+* Maintenance
+
+4. Roofing and Waterproofing
+
+Explain:
+Roofing and waterproofing protect the structure from water damage, weather exposure, leaks, insulation issues, and long-term deterioration. Material selection depends on building type, roof slope, climate, drainage, and exposure conditions.
+
+Cover:
+
+* Shingles
+* Metal roofing
+* Flat roofing
+* Waterproof membranes
+* Sealants
+* Flashing
+* Roof drains
+* Leak prevention
+* Preventive maintenance
+
+5. Building Materials and Structural Considerations
+
+Explain:
+Building material selection affects strength, durability, cost, installation timeline, and long-term performance. Cement, concrete, masonry, drywall, insulation, lumber, steel, and finishing materials must be selected based on project type and performance needs.
+
+Cover:
+
+* Cement and concrete
+* Masonry
+* Rebar
+* Drywall
+* Insulation
+* Lumber
+* Steel
+* Surface finishing
+
+6. Procurement Guide
+
+Explain:
+A successful construction project requires timely procurement, correct quantities, reliable suppliers, specification matching, price comparison, and delivery coordination. Poor procurement planning can lead to delays, cost increases, and material mismatch.
+
+Cover:
+
+* BOQ review
+* Quantity estimation
+* Vendor sourcing
+* Product comparison
+* Bulk pricing
+* Delivery planning
+* Replacement planning
+* Documentation
+
+CTA:
+
+Heading:
+Need Help Choosing Construction Materials?
+
+Text:
+Share your requirement, product list, project type, or material specification with Chittety Construction and our team will help you understand available sourcing options.
+
+Buttons:
+
+* Request Material Guidance
+* Send Requirement
+
+MATERIAL SELECTION GUIDES PAGE
+
+Create a detailed Material Selection Guides page.
+
+Page Title:
+Material Selection Guides
+
+Hero Heading:
+Choose the Right Materials for Every Construction Requirement
+
+Intro:
+Selecting the correct material is one of the most important decisions in any construction project. The right product can improve durability, reduce maintenance, control costs, improve safety, and support long-term project performance. Chittety Construction helps customers understand material options across plumbing, electrical, flooring, roofing, waterproofing, building materials, hardware, tools, and project supply categories.
+
+Sections:
+
+1. How to Select Plumbing Materials
+
+Explain:
+Plumbing materials must be selected based on pressure, water temperature, indoor or outdoor usage, corrosion resistance, local code requirements, and installation method.
+
+Compare:
+
+* PVC
+* CPVC
+* PEX
+* Copper
+* Galvanized steel
+* HDPE
+* Brass fittings
+* Stainless steel fittings
+
+Selection factors:
+
+* Hot or cold water use
+* Drainage or pressure line
+* Indoor or underground use
+* Repair or new installation
+* Budget and durability
+* Maintenance access
+
+2. How to Select Electrical Materials
+
+Explain:
+Electrical materials must be selected based on load, safety, conductor type, insulation rating, circuit protection, installation environment, and compliance requirements.
+
+Cover:
+
+* Copper wire
+* Aluminum wire
+* THHN wire
+* NM cable
+* Conduit
+* Junction boxes
+* Breakers
+* Panels
+* GFCI/AFCI devices
+* Grounding accessories
+
+Selection factors:
+
+* Load requirement
+* Indoor/outdoor use
+* Wet/dry location
+* Residential/commercial application
+* Future expansion
+* Safety standards
+
+3. How to Select Flooring Materials
+
+Explain:
+Flooring must be selected based on room usage, traffic, moisture, cleaning requirements, style, installation method, and long-term durability.
+
+Cover:
+
+* Ceramic tile
+* Porcelain tile
+* Marble
+* Granite
+* Vinyl flooring
+* Laminate flooring
+* Hardwood flooring
+* Epoxy flooring
+* Carpet tile
+
+Selection factors:
+
+* Water resistance
+* Slip resistance
+* Maintenance
+* Cost
+* Installation surface
+* Design finish
+
+4. How to Select Roofing and Waterproofing Materials
+
+Explain:
+Roofing materials must protect the building from weather, water, heat, and long-term structural damage. Waterproofing materials should be selected based on surface type, water exposure, movement, drainage, and expected durability.
+
+Cover:
+
+* Asphalt shingles
+* Metal roofing
+* Flat roof membranes
+* Waterproof coatings
+* Sealants
+* Flashing
+* Roof drains
+* Gutter systems
+
+Selection factors:
+
+* Roof slope
+* Climate exposure
+* Drainage
+* Building type
+* Maintenance access
+* Warranty coverage
+
+5. How to Select Hardware and Tools
+
+Explain:
+Hardware and tools must match load requirements, material type, installation conditions, and user safety. Poor-quality fasteners, anchors, hinges, locks, or tools can affect the reliability of the entire project.
+
+Cover:
+
+* Screws
+* Anchors
+* Bolts
+* Hinges
+* Locks
+* Door closers
+* Brackets
+* Cutting tools
+* Drilling tools
+* Measuring tools
+* Safety equipment
+
+6. Cost Considerations
+
+Explain:
+Material pricing depends on brand, availability, market movement, order quantity, delivery location, specifications, and vendor source. Chittety Construction uses market-reference pricing and estimated discounted pricing to help customers understand approximate cost ranges.
+
+Add note:
+Final pricing is subject to vendor availability, order quantity, product specifications, delivery location, and market conditions.
+
+CTA:
+
+Heading:
+Unsure Which Material to Choose?
+
+Text:
+Send your project requirement, product code, material list, or site details to Chittety Construction for sourcing and quotation support.
+
+Buttons:
+
+* Request Material Selection Help
+* Browse Product Catalog
+
+WARRANTY INFORMATION PAGE
+
+Create a detailed Warranty Information page.
+
+Page Title:
+Warranty Information
+
+Hero Heading:
+Understanding Product and Service Warranty Coverage
+
+Intro:
+Warranty coverage in construction supply depends on the product type, manufacturer, vendor, installation method, application, usage conditions, and documentation. Chittety Construction helps customers understand warranty basics and assists with warranty coordination where applicable.
+
+Sections:
+
+1. Manufacturer Warranty
+
+Most products listed or sourced by Chittety Construction are manufactured by third-party brands or suppliers. Product warranties are generally provided by the original manufacturer and may vary by brand, product type, application, and intended use.
+
+Examples:
+
+* Plumbing fixtures
+* Faucets and mixers
+* Electrical panels
+* Breakers
+* Lighting products
+* Pumps
+* Water heaters
+* Flooring materials
+* Roofing products
+* Waterproofing materials
+* Tools and equipment
+
+2. What Warranty May Cover
+
+* Manufacturing defects
+* Material defects
+* Product failure under normal usage
+* Brand-specific replacement coverage
+* Limited parts replacement
+* Product-specific repair or replacement
+
+3. What Warranty Usually Does Not Cover
+
+* Improper installation
+* Misuse or abuse
+* Accidental damage
+* Unauthorized modification
+* Normal wear and tear
+* Damage due to poor maintenance
+* Damage due to incorrect product selection
+* Damage caused by site conditions
+* Labor costs unless specifically covered by manufacturer
+
+4. Documentation Required
+
+* Proof of purchase
+* Product code or SKU
+* Brand/model details
+* Invoice or receipt
+* Installation details
+* Photos or videos of issue
+* Warranty card if provided
+* Date of purchase and delivery
+
+5. Chittety Construction’s Role
+
+Chittety Construction does not manufacture most catalog products. However, where applicable, the company may assist customers by:
+
+* Reviewing warranty-related information
+* Helping identify product source
+* Coordinating with vendors
+* Guiding customers on documentation
+* Supporting replacement or claim communication where possible
+
+6. Service Warranty Note
+
+Service-related warranty depends on the nature of work, service provider, materials used, workmanship scope, and agreed terms. Service warranty does not apply to issues caused by misuse, third-party damage, unrelated site conditions, or changes made after completion.
+
+7. Warranty Disclaimer
+
+All warranty claims are subject to manufacturer, vendor, or service partner approval. Warranty timelines, coverage, and remedies vary by product and provider. Chittety Construction may support coordination but cannot guarantee approval of manufacturer or vendor warranty claims.
+
+CTA:
+
+Heading:
+Need Help With a Warranty Question?
+
+Text:
+Share your product code, invoice details, photos, and issue description with Chittety Construction for review and guidance.
+
+Buttons:
+
+* Submit Warranty Inquiry
+* Contact Support
+
+DELIVERY INFORMATION PAGE
+
+Create a detailed Delivery Information page.
+
+Page Title:
+Delivery Information
+
+Hero Heading:
+Material Delivery, Freight Coordination & Project Supply Support
+
+Intro:
+Construction material delivery depends on product availability, vendor location, order size, product weight, delivery distance, freight requirements, site access, and scheduling. Chittety Construction helps customers coordinate material supply and delivery support across Dallas–Fort Worth and, where possible, through vendor networks for wider procurement needs.
+
+Sections:
+
+1. Local Delivery Support
+
+Chittety Construction may assist with local delivery coordination for eligible products and orders within the Dallas–Fort Worth area.
+
+Local delivery may apply to:
+
+* Plumbing materials
+* Electrical products
+* Hardware
+* Tools
+* Flooring accessories
+* Lighting products
+* Smaller building supplies
+* Selected bulk orders
+
+2. Large Order and Freight Delivery
+
+Large, heavy, oversized, or bulk construction materials may require freight coordination or vendor-arranged delivery.
+
+This may apply to:
+
+* Pipes
+* Roofing materials
+* Flooring pallets
+* Steel materials
+* Building materials
+* Water tanks
+* Pumps
+* Panels
+* Large fixtures
+* Contractor supply orders
+
+3. Delivery Timelines
+
+Delivery timelines depend on:
+
+* Stock availability
+* Vendor location
+* Product category
+* Order quantity
+* Freight scheduling
+* Delivery address
+* Weather conditions
+* Site accessibility
+* Special handling requirements
+
+Add note:
+Delivery dates are estimates until confirmed by the vendor or logistics provider.
+
+4. Customer Responsibilities
+
+Customers should:
+
+* Provide accurate delivery address
+* Share site contact person
+* Confirm unloading access
+* Check product quantity at delivery
+* Inspect visible damage
+* Report damage within 48 hours
+* Ensure someone is available to receive materials
+* Confirm whether lifting/unloading support is needed
+
+5. Damaged or Missing Items
+
+If products arrive damaged or incomplete, customers should notify Chittety Construction within 48 hours with:
+
+* Order details
+* Product code
+* Photos
+* Delivery receipt
+* Damage description
+* Quantity issue details
+
+6. Delivery Disclaimer
+
+Delivery availability, timelines, charges, and methods vary based on product category, vendor availability, logistics provider, delivery location, and order size. Chittety Construction may coordinate delivery support but final logistics may depend on vendor or carrier policies.
+
+CTA:
+
+Heading:
+Need Materials Delivered to Your Project Site?
+
+Text:
+Send your material list, delivery location, preferred timeline, and quantity requirements to Chittety Construction for delivery and sourcing support.
+
+Buttons:
+
+* Request Delivery Support
+* Send Material List
+
+SUPPORT CENTER PAGE
+
+Create a detailed Support Center page.
+
+Page Title:
+Support Center
+
+Hero Heading:
+Get Help With Products, Services, Quotes, Warranty, Delivery & Procurement
+
+Intro:
+The Chittety Construction Support Center is designed to help customers quickly find answers, submit requirements, request quotes, ask product questions, get delivery guidance, and receive support for construction material sourcing and service coordination.
+
+Support Categories:
+
+* Product Inquiry
+* Quote Request
+* Bulk Order Support
+* Vendor Sourcing Support
+* Warranty Inquiry
+* Delivery Support
+* Service Request
+* Project Procurement Assistance
+* BOQ / Material List Review
+* General Contact
+
+Add form fields:
+
+* Name
+* Phone
+* Email
+* Company Name
+* Support Category
+* Product Code / Service Code
+* Quantity
+* Delivery Location
+* Upload Material List
+* Upload Photos
+* Message
+
+Add FAQ links:
+
+* Product Pricing
+* Delivery
+* Warranty
+* Refund & Return
+* Services
+* Wholesale Supply
+* Vendor Sourcing
+
+FAQ PAGE — EXPANDED
+
+Create an expanded FAQ page with at least 25 FAQs.
+
+Use these FAQs:
+
+1. What does Chittety Construction do?
+   Chittety Construction provides construction materials, product sourcing, vendor coordination, wholesale supply support, service support, and project procurement assistance across multiple construction categories.
+
+2. Is Chittety Construction an ecommerce store?
+   No. The website is a catalog and inquiry platform. Customers browse products and services, then request quotes or contact the company directly.
+
+3. Do you sell products directly?
+   Products may be supplied through vendor relationships, supplier networks, and sourcing partners depending on availability, location, quantity, and category.
+
+4. Do you provide installation services?
+   Chittety Construction may coordinate or support installation-related service requests through qualified service partners, contractors, or vendors where applicable.
+
+5. Are prices final?
+   No. Prices shown are market-reference or estimated discounted prices. Final pricing depends on vendor availability, quantity, brand, location, freight, and market conditions.
+
+6. How does the 10% discount work?
+   The Chittety estimated discounted price is calculated as approximately 10% below the market reference price. Final discount availability may vary by vendor, quantity, product category, and order conditions.
+
+7. Can contractors place bulk orders?
+   Yes. Contractors, builders, businesses, and project teams can request bulk pricing and procurement support.
+
+8. Can I send my material list?
+   Yes. Customers can upload or send a material list, BOQ, photos, product codes, or project requirements for review and quotation support.
+
+9. Do you support commercial projects?
+   Yes. Chittety Construction supports residential, commercial, industrial, property management, and project-based material sourcing requirements.
+
+10. Can you source products not listed on the website?
+    Yes. If a product is not listed, customers can submit a custom sourcing request.
+
+11. Are product images exact?
+    Product images may be representative. Actual product appearance, packaging, specifications, and brand details may vary.
+
+12. Do you provide warranties?
+    Product warranties are generally provided by the original manufacturer. Chittety Construction may assist with warranty coordination where applicable.
+
+13. Do you offer delivery?
+    Delivery may be available depending on product category, location, vendor availability, order size, and freight requirements.
+
+14. What areas do you serve?
+    Chittety Construction serves Dallas–Fort Worth and may provide sourcing or procurement support through vendor networks across the United States.
+
+15. Do you provide emergency services?
+    Emergency support depends on availability, service category, location, and vendor/technician availability.
+
+16. Can homeowners use the website?
+    Yes. Homeowners can browse products, request quotes, and ask for material or service support.
+
+17. Can businesses use the website?
+    Yes. Businesses, contractors, property managers, builders, and project teams can use the platform for supply and procurement requirements.
+
+18. Do you provide BOQ assistance?
+    Chittety Construction may assist with material estimation, BOQ review, and procurement planning depending on project details.
+
+19. How do I request a quote?
+    Use the Request Quote button, submit your product/service requirement, include quantity and location, and share any supporting documents or photos.
+
+20. Are services fixed-price?
+    No. Services are shown with starting-from pricing only. Final cost depends on site conditions, labor, materials, urgency, and project scope.
+
+21. Can I request both products and services together?
+    Yes. Customers may request products, services, or combined product-and-service support.
+
+22. Do you work with vendors?
+    Yes. Vendor relationships are one of the core strengths of Chittety Construction.
+
+23. Do you provide wholesale distribution?
+    The company supports wholesale, contractor supply, bulk order, and vendor sourcing requirements.
+
+24. What happens after I submit a request?
+    The team reviews your requirement, checks category/vendor availability, evaluates pricing and options, and responds with guidance or quotation support.
+
+25. How quickly will I receive a response?
+    Response time depends on inquiry complexity, category, vendor availability, and project details. Simple inquiries may be handled faster than bulk or specialized sourcing requests.
+
+RESOURCE CARDS UPDATE
+
+Keep resource cards clean and minimal, but make every card clickable.
+
+Card 1:
+Construction Guides
+
+Description:
+Detailed guides covering plumbing, electrical, flooring, roofing, waterproofing, building materials, procurement planning, and construction best practices.
+
+Button:
+View Construction Guides
+
+Card 2:
+Material Selection Guides
+
+Description:
+Compare materials, understand specifications, review use cases, and choose suitable products for residential, commercial, and project-based requirements.
+
+Button:
+View Material Guides
+
+Card 3:
+Warranty Information
+
+Description:
+Understand manufacturer warranties, documentation requirements, claim processes, service warranty limitations, and product coverage basics.
+
+Button:
+View Warranty Details
+
+Card 4:
+Delivery Information
+
+Description:
+Learn about local delivery, freight coordination, project-site delivery, damage reporting, customer responsibilities, and order scheduling.
+
+Button:
+View Delivery Details
+
+Card 5:
+Support Center
+
+Description:
+Get help with product inquiries, quote requests, vendor sourcing, delivery support, warranty questions, services, and procurement assistance.
+
+Button:
+Visit Support Center
+
+Card 6:
+FAQ
+
+Description:
+Find answers to common questions about pricing, products, services, delivery, warranty, wholesale supply, vendor sourcing, and quote requests.
+
+Button:
+View FAQ
+
+FOOTER CHECK
+
+Footer is visually good now. Keep it corporate.
+
+Ensure every footer link is clickable and routed to a real page.
+
+Footer columns:
+
+Company:
+
+* About
+* Our Story
+* Industries Served
+* Vendor Network
+* Wholesale
+* Procurement Solutions
+* Contact Us
+
+Products:
+
+* Plumbing & Bathroom
+* Electrical & Wiring
+* Lighting
+* Pumps & Water
+* Flooring & Tiles
+* Roofing
+* Steel & Fabrication
+* Building Materials
+* Hardware & Tools
+* Kitchen Systems
+
+Services:
+
+* Plumbing
+* Electrical
+* Flooring
+* Roofing
+* Building Maintenance
+* Steel Fabrication
+* Water Tank
+* Pump Installation
+* Leak Detection
+* Project Support
+
+Business:
+
+* Contractor Supply
+* Wholesale
+* Bulk Orders
+* Project Procurement
+* Vendor Sourcing
+* Material Estimation
+* BOQ Assistance
+* Commercial Projects
+
+Resources:
+
+* Construction Guides
+* Material Selection Guides
+* FAQ
+* Warranty Info
+* Delivery Info
+* Support Center
+
+Contact:
+
+* 6816 Outland Drive, Plano, Texas 75024
+* Mon–Fri 8AM–6PM
+* Phone
+* Email
+
+Legal links must exist:
+
+* Privacy Policy
+* Terms & Conditions
+* Cookie Policy
+* Refund & Return Policy
+* Warranty Policy
+* Shipping & Delivery Policy
+* Product Disclaimer
+* Service Disclaimer
+* Accessibility Statement
+
+LEGAL/POLICY PAGES
+
+Create or complete:
+
+* Privacy Policy
+* Terms & Conditions
+* Cookie Policy
+* Refund & Return Policy
+* Warranty Policy
+* Shipping & Delivery Policy
+* Product Disclaimer
+* Service Disclaimer
+* Accessibility Statement
+
+Refund & Return Policy logic:
+
+* Eligible returns within 30 days if unused, original condition, original packaging and proof of purchase.
+* Damaged or defective products must be reported within 48 hours of delivery.
+* Non-returnable items include custom fabricated products, special-order products, cut-to-size materials, clearance items, installed products, and products damaged due to misuse or improper installation.
+* Service-related fees are non-refundable once labor, consultation, site visit, installation, or project work has commenced.
+* Approved refunds are processed within 7–14 business days.
+* Chittety Construction may inspect products before approving return or replacement.
+
+Warranty Policy logic:
+
+* Chittety Construction does not manufacture most catalog products.
+* Product warranties are generally provided by the original manufacturer.
+* Manufacturer warranties vary by brand, product category, and intended use.
+* Warranty claims may require proof of purchase.
+* Warranty excludes misuse, improper installation, unauthorized modification, accidental damage, neglect, and normal wear and tear.
+* Chittety Construction may assist in coordinating manufacturer warranty claims.
+
+Shipping & Delivery Policy logic:
+
+* Local delivery may be available in Dallas–Fort Worth.
+* Large orders may require freight coordination.
+* Delivery timelines depend on stock, vendor availability, and location.
+* Customer should inspect products at delivery.
+* Damage must be reported within 48 hours.
+
+Product Disclaimer logic:
+
+* Product images may be representative.
+* Specifications may vary by brand/model.
+* Availability may vary.
+* Prices may change.
+* Final pricing depends on vendor availability, quantity, delivery location, and market conditions.
+* Customers should verify technical compatibility before purchase.
+
+Service Disclaimer logic:
+
+* Service estimates are preliminary.
+* Final cost depends on site inspection.
+* Labor, material, access, urgency, and project scope affect quote.
+* Permits may be required depending on local rules.
+* Chittety Construction may coordinate work through service partners/vendors.
+
+OTHER CONTENT PAGES TO CHECK
+
+Check these pages. If any are still short, thin, placeholder, or Coming Soon, expand them immediately:
+
+* About
+* Our Story
+* Industries Served
+* Vendor Network
+* Wholesale
+* Procurement Solutions
+* Construction Guides
+* Material Selection Guides
+* FAQ
+* Warranty Information
+* Delivery Information
+* Support Center
+* Refund & Return Policy
+* Warranty Policy
+* Shipping & Delivery Policy
+* Product Disclaimer
+* Service Disclaimer
+* Privacy Policy
+* Terms & Conditions
+* Cookie Policy
+* Accessibility Statement
+
+Remove unnecessary Coming Soon badges once page content exists.
+
+Make every resource card open a detailed page.
+
+Make all footer links clickable.
+
+PRODUCTION DEPLOYMENT CHECK
+
+After local fixes:
+
+Run production build.
+
+Fix:
+
+* Build errors
+* Missing imports
+* JSON import issues
+* Broken image paths
+* Case-sensitive folder mismatch
+* Missing public assets
+* Routing issues
+* Deployment cache issues
+* Dead links
+
+Then deploy latest build.
+
+After deployment, confirm:
+
+1. Header is new corporate header.
+2. Homepage has procurement positioning.
+3. Products page loads 1,500 products.
+4. Product cards show generated images or premium fallback.
+5. Product detail gallery works.
+6. Visible first products no longer show grey cube unless image generation is still externally blocked.
+7. Mobile Request Quote button is readable.
+8. Footer links work.
+9. Resource pages have detailed content.
+10. Old service-booking content is removed.
+
+IF API CREDITS ARE STILL NOT REFRESHED
+
+Do not stop the whole project.
+
+Complete all non-image work:
+
+1. Fix image mapping and helper functions.
+2. Add premium fallback placeholder.
+3. Make product cards visually clean.
+4. Make product detail gallery work with fallback.
+5. Save resumable image-generation state.
+6. Expand all content pages.
+7. Fix mobile CTA.
+8. Fix footer/page routing.
+9. Run build.
+
+Then provide exact resume command for image generation when credits reset.
+
+FINAL REPORT REQUIRED
+
+After completing the work, provide:
+
+* Total products detected
+* Total unique product types detected
+* Expected image count
+* Current generated image count
+* Number of product types complete with 5+ images
+* Number of product types incomplete
+* Number of product types using fallback
+* Sample image URLs tested successfully
+* Components updated
+* Pages expanded
+* Pages still incomplete, if any
+* Mobile fixes completed
+* Footer links verified
+* Build status
+* Deployment status
+* Remaining work, if any
+* Exact resume command if API credits are still blocked
+
+Do not mark complete until the website is visually clean, functional, clickable, content-rich, and production-ready.

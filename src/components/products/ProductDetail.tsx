@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import {
-  Package,
   Phone,
   MessageCircle,
   ChevronRight,
@@ -12,6 +11,11 @@ import {
   Ruler,
   Layers,
   BoxesIcon,
+  FileText,
+  Send,
+  ShoppingCart,
+  Truck,
+  ClipboardList,
 } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -38,31 +42,24 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
   const { openQuoteDialog } = useNavigation();
   const [product, setProduct] = useState<Product | null>(null);
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
-  const [selectedThumb, setSelectedThumb] = useState(0);
   const fetchedSkuRef = useRef<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    if (!open || !sku || fetchedSkuRef.current === sku) return;
-    fetchedSkuRef.current = sku;
-
+  const fetchData = useCallback((targetSku: string) => {
     let cancelled = false;
 
     queueMicrotask(() => {
       if (cancelled) return;
       setLoading(true);
-      setSelectedThumb(0);
       setProduct(null);
       setRelatedProducts([]);
 
-      fetch(`/api/products?search=${encodeURIComponent(sku)}&limit=1`)
+      fetch(`/api/products?search=${encodeURIComponent(targetSku)}&limit=1`)
         .then((r) => r.json())
         .then((productData) => {
           if (cancelled) return;
           const p = productData?.products?.[0] || productData?.[0] || null;
           setProduct(p);
-          setSelectedThumb(0);
-          setRelatedProducts([]);
           setLoading(false);
 
           if (p?.category) {
@@ -71,7 +68,7 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
               .then((data) => {
                 if (cancelled) return;
                 const relProducts = data?.products || data || [];
-                setRelatedProducts(relProducts.filter((rp: Product) => rp.sku !== sku).slice(0, 4));
+                setRelatedProducts(relProducts.filter((rp: Product) => rp.sku !== targetSku).slice(0, 4));
               })
               .catch(() => {});
           }
@@ -82,7 +79,22 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
     });
 
     return () => { cancelled = true; };
-  }, [open, sku]);
+  }, []);
+
+  useEffect(() => {
+    if (!open || !sku) return;
+    if (fetchedSkuRef.current === sku) return;
+    fetchedSkuRef.current = sku;
+    const cleanup = fetchData(sku);
+    return cleanup;
+  }, [open, sku, fetchData]);
+
+  // Reset ref when sheet closes so re-opening same SKU works
+  useEffect(() => {
+    if (!open) {
+      fetchedSkuRef.current = null;
+    }
+  }, [open]);
 
   const discountPercent = product?.discount ? Math.round(product.discount * 100) : 0;
   const isAvailable =
@@ -90,35 +102,13 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
     !product.availability.toLowerCase().includes('out of stock') &&
     !product.availability.toLowerCase().includes('discontinued');
 
-  // Generate image paths based on product type
-  function toSlug(t: string): string {
-    return t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
-  }
-  const slug = product?.productType ? toSlug(product.productType) : '';
-  const productImages = slug ? Array.from({ length: 5 }, (_, i) => `/images/products/${slug}/angle-${i+1}.png`) : [];
-  const [loadedImages, setLoadedImages] = useState<boolean[]>([]);
-
-  useEffect(() => {
-    if (!slug) { setLoadedImages([]); return; }
-    const checks = productImages.map((img) => {
-      return new Promise<boolean>((resolve) => {
-        const el = new Image();
-        el.onload = () => resolve(true);
-        el.onerror = () => resolve(false);
-        el.src = img;
-      });
-    });
-    Promise.all(checks).then(setLoadedImages);
-  }, [slug]);
-
-  const thumbnails = productImages;
-
   const handleRequestQuote = () => {
     if (!product) return;
     openQuoteDialog({
       sku: product.sku,
       productName: product.name,
       category: product.category,
+      brand: product.brand,
     });
   };
 
@@ -145,34 +135,30 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
   };
 
   const detailContent = loading ? (
-    <div className="space-y-6 p-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="space-y-3">
-          <Skeleton className="aspect-square w-full rounded-lg" />
-          <div className="flex gap-2">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Skeleton key={i} className="size-16 rounded-md" />
-            ))}
-          </div>
-        </div>
-        <div className="space-y-4">
-          <Skeleton className="h-8 w-3/4" />
-          <Skeleton className="h-4 w-1/2" />
-          <Skeleton className="h-4 w-1/3" />
-          <Skeleton className="h-6 w-24" />
-          <Skeleton className="h-8 w-32" />
-          <div className="flex gap-2 pt-4">
-            <Skeleton className="h-10 w-36" />
-            <Skeleton className="h-10 w-28" />
-            <Skeleton className="h-10 w-36" />
-          </div>
-        </div>
+    <div className="space-y-5 p-6">
+      <div className="space-y-3">
+        <Skeleton className="h-7 w-3/4" />
+        <Skeleton className="h-4 w-1/3" />
+        <Skeleton className="h-4 w-1/2" />
+      </div>
+      <Skeleton className="h-px w-full" />
+      <div className="grid grid-cols-2 gap-4">
+        <Skeleton className="h-4 w-full" />
+        <Skeleton className="h-4 w-full" />
+        <Skeleton className="h-4 w-full" />
+        <Skeleton className="h-4 w-full" />
+      </div>
+      <Skeleton className="h-px w-full" />
+      <div className="flex gap-2">
+        <Skeleton className="h-10 w-36" />
+        <Skeleton className="h-10 w-28" />
+        <Skeleton className="h-10 w-36" />
       </div>
     </div>
   ) : !product ? (
     <div className="flex flex-col items-center justify-center py-20 px-6">
       <div className="flex items-center justify-center size-16 rounded-full bg-[#F3F4F6] mb-4">
-        <Package className="size-7 text-[#9CA3AF]" />
+        <Layers className="size-7 text-[#9CA3AF]" />
       </div>
       <h3 className="text-base font-semibold text-[#111827]">Product not found</h3>
       <p className="mt-1 text-sm text-[#6B7280]">
@@ -189,180 +175,167 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
   ) : (
     <ScrollArea className="h-[calc(100vh-80px)]">
       <div className="p-6 pb-12">
-        {/* Top section: Image + Info */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left: Image */}
-          <div className="space-y-3">
-            {/* Main image */}
-            <div className="aspect-square rounded-lg bg-[#F3F4F6] flex items-center justify-center border border-[#E5E7EB] overflow-hidden">
-              {loadedImages[selectedThumb] ? (
-                <img src={thumbnails[selectedThumb]} alt={product?.name || ''} className="w-full h-full object-cover" />
-              ) : (
-                <Package className="size-20 text-[#D1D5DB]" />
-              )}
-            </div>
-            {/* Thumbnails */}
-            <div className="flex gap-2 overflow-x-auto pb-1">
-              {thumbnails.map((img, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setSelectedThumb(idx)}
-                  className={`shrink-0 size-16 rounded-md border flex items-center justify-center transition-colors overflow-hidden ${
-                    selectedThumb === idx
-                      ? 'border-[#111827] ring-1 ring-[#111827]'
-                      : 'border-[#E5E7EB] hover:border-[#D1D5DB]'
-                  } bg-[#F9FAFB]`}
-                >
-                  {loadedImages[idx] ? (
-                    <img src={img} alt={`Angle ${idx+1}`} className="w-full h-full object-cover" />
-                  ) : (
-                    <Package className="size-5 text-[#D1D5DB]" />
-                  )}
-                </button>
-              ))}
-            </div>
+        {/* Header Section */}
+        <div className="space-y-4">
+          {/* Product Name */}
+          <h1 className="text-xl font-bold text-[#111827] leading-tight">
+            {product.name}
+          </h1>
+
+          {/* SKU */}
+          <div className="flex items-center gap-2">
+            <Tag className="size-3.5 text-[#9CA3AF]" />
+            <span className="text-sm font-mono text-[#6B7280]">{product.sku}</span>
           </div>
 
-          {/* Right: Product info */}
-          <div className="space-y-4">
-            {/* Name */}
-            <h1 className="text-2xl font-bold text-[#111827] leading-tight">
-              {product.name}
-            </h1>
+          {/* Category breadcrumb */}
+          <div className="flex items-center gap-1.5 text-xs text-[#6B7280]">
+            <span>Products</span>
+            <ChevronRight className="size-3" />
+            <span className="text-[#374151]">{product.category}</span>
+            {product.subcategory && (
+              <>
+                <ChevronRight className="size-3" />
+                <span className="text-[#374151]">{product.subcategory}</span>
+              </>
+            )}
+          </div>
 
-            {/* SKU */}
-            <div className="flex items-center gap-2">
-              <Tag className="size-3.5 text-[#9CA3AF]" />
-              <span className="text-sm text-[#6B7280]">SKU: {product.sku}</span>
-            </div>
-
-            {/* Category breadcrumb */}
-            <div className="flex items-center gap-1.5 text-xs text-[#6B7280]">
-              <span>Products</span>
-              <ChevronRight className="size-3" />
-              <span className="text-[#374151]">{product.category}</span>
-              {product.subcategory && (
-                <>
-                  <ChevronRight className="size-3" />
-                  <span className="text-[#374151]">{product.subcategory}</span>
-                </>
-              )}
-            </div>
-
-            {/* Brand */}
-            <div className="flex items-center gap-2">
+          {/* Brand + Availability */}
+          <div className="flex items-center gap-4 text-sm">
+            <div className="flex items-center gap-1.5">
               <Info className="size-3.5 text-[#9CA3AF]" />
-              <span className="text-sm text-[#374151]">
+              <span className="text-[#374151]">
                 Brand: <span className="font-medium">{product.brand}</span>
               </span>
             </div>
-
-            <Separator />
-
-            {/* Prices */}
-            <div className="space-y-2">
-              <div className="flex items-baseline gap-3">
-                <span className="text-2xl font-bold text-[#111827]">
-                  ${product.chittetyPrice.toFixed(2)}
-                </span>
-                {product.marketPrice > product.chittetyPrice && (
-                  <span className="text-sm text-[#9CA3AF] line-through">
-                    ${product.marketPrice.toFixed(2)}
-                  </span>
-                )}
-                {discountPercent > 0 && (
-                  <Badge className="bg-[#C8A44D] text-white text-[10px] font-semibold px-1.5 py-0 border-0 hover:bg-[#C8A44D]">
-                    {discountPercent}% OFF
-                  </Badge>
-                )}
-              </div>
-              <p className="text-xs text-[#9CA3AF]">
-                {product.priceBasis || 'Market reference price'}
-              </p>
+            <div className="flex items-center gap-1.5">
+              <span
+                className={`size-2 rounded-full ${
+                  isAvailable ? 'bg-emerald-500' : 'bg-amber-400'
+                }`}
+              />
+              <span className="text-[#374151]">
+                {isAvailable ? 'Available' : product.availability || 'Confirm Stock'}
+              </span>
             </div>
+          </div>
 
-            <Separator />
+          <Separator />
 
-            {/* Availability, MOQ, Unit */}
-            <div className="space-y-2.5">
-              <div className="flex items-center gap-2">
-                <span
-                  className={`size-2 rounded-full ${
-                    isAvailable ? 'bg-emerald-500' : 'bg-amber-400'
-                  }`}
-                />
-                <span className="text-sm text-[#374151]">
-                  {isAvailable ? 'Available' : product.availability || 'Confirm Stock'}
+          {/* Pricing */}
+          <div className="space-y-2">
+            <div className="flex items-baseline gap-3">
+              <span className="text-2xl font-bold text-[#111827]">
+                ${product.chittetyPrice.toFixed(2)}
+              </span>
+              {product.marketPrice > product.chittetyPrice && (
+                <span className="text-sm text-[#9CA3AF] line-through">
+                  ${product.marketPrice.toFixed(2)}
                 </span>
-              </div>
-              <div className="flex items-center gap-4 text-sm text-[#6B7280]">
-                <div className="flex items-center gap-1.5">
-                  <BoxesIcon className="size-3.5" />
-                  <span>MOQ: {product.moq || 1} {product.unit || 'units'}</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <Ruler className="size-3.5" />
-                  <span>Unit: {product.unit || 'Each'}</span>
-                </div>
-              </div>
+              )}
+              {discountPercent > 0 && (
+                <Badge className="bg-[#C8A44D] text-white text-[10px] font-semibold px-1.5 py-0 border-0 hover:bg-[#C8A44D]">
+                  {discountPercent}% OFF
+                </Badge>
+              )}
             </div>
+            <p className="text-xs text-[#9CA3AF]">
+              {product.priceBasis || 'Market reference price'}
+            </p>
+          </div>
 
-            <Separator />
+          <Separator />
 
-            {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-2.5 pt-1">
+          {/* Quick Actions */}
+          <div className="space-y-2">
+            <p className="text-xs font-semibold text-[#6B7280] uppercase tracking-wider">Quick Actions</p>
+            <div className="flex flex-wrap gap-2">
               <Button
                 onClick={handleRequestQuote}
-                className="h-10 bg-[#C8A44D] hover:bg-[#B8943F] text-white font-semibold px-5 transition-colors"
+                className="h-9 bg-[#C8A44D] hover:bg-[#B8943F] text-white font-semibold px-4 text-sm gap-1.5"
               >
+                <FileText className="size-3.5" />
                 Request Quote
               </Button>
               <Button
                 variant="outline"
                 onClick={handleCallNow}
-                className="h-10 border-[#111827] text-[#111827] hover:bg-[#111827] hover:text-white font-medium px-4 transition-colors"
+                className="h-9 border-[#111827] text-[#111827] hover:bg-[#111827] hover:text-white font-medium px-4 text-sm gap-1.5"
               >
-                <Phone className="size-4" />
+                <Phone className="size-3.5" />
                 Call Now
               </Button>
               <Button
                 variant="outline"
                 onClick={handleWhatsApp}
-                className="h-10 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-medium px-4 transition-colors"
+                className="h-9 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-medium px-4 text-sm gap-1.5"
               >
-                <MessageCircle className="size-4" />
+                <MessageCircle className="size-3.5" />
                 WhatsApp
+              </Button>
+              <Button
+                variant="outline"
+                onClick={handleRequestQuote}
+                className="h-9 border-[#E5E7EB] text-[#374151] hover:bg-[#F9FAFB] font-medium px-4 text-sm gap-1.5"
+              >
+                <Send className="size-3.5" />
+                Send Material List
+              </Button>
+              <Button
+                variant="outline"
+                onClick={handleRequestQuote}
+                className="h-9 border-[#E5E7EB] text-[#374151] hover:bg-[#F9FAFB] font-medium px-4 text-sm gap-1.5"
+              >
+                <ShoppingCart className="size-3.5" />
+                Bulk Supply
+              </Button>
+              <Button
+                variant="outline"
+                onClick={handleWhatsApp}
+                className="h-9 border-[#E5E7EB] text-[#374151] hover:bg-[#F9FAFB] font-medium px-4 text-sm gap-1.5"
+              >
+                <Truck className="size-3.5" />
+                Delivery Info
               </Button>
             </div>
           </div>
         </div>
 
-        {/* Below fold */}
-        <div className="mt-10 space-y-8">
+        {/* Below fold: Details */}
+        <div className="mt-8 space-y-8">
           <Separator />
 
           {/* Description */}
           {product.shortDescription && (
             <section>
-              <h2 className="text-base font-semibold text-[#111827] mb-3">Description</h2>
+              <h2 className="text-base font-semibold text-[#111827] mb-2">Product Description</h2>
               <p className="text-sm text-[#6B7280] leading-relaxed">
                 {product.shortDescription}
               </p>
             </section>
           )}
 
-          {/* Specifications */}
+          {/* Full Specifications Table */}
           <section>
             <h2 className="text-base font-semibold text-[#111827] mb-3">Specifications</h2>
             <div className="rounded-lg border border-[#E5E7EB] overflow-hidden">
               <table className="w-full text-sm">
                 <tbody>
                   {[
+                    { label: 'SKU / Product Code', value: product.sku, icon: Tag },
+                    { label: 'Product Name', value: product.name, icon: Layers },
+                    { label: 'Category', value: product.category, icon: ClipboardList },
+                    { label: 'Subcategory', value: product.subcategory, icon: ClipboardList },
+                    { label: 'Brand', value: product.brand, icon: Info },
                     { label: 'Product Type', value: product.productType, icon: Layers },
-                    { label: 'Specification', value: product.specification, icon: Ruler },
-                    { label: 'Unit', value: product.unit, icon: BoxesIcon },
+                    { label: 'Specification / Size', value: product.specification, icon: Ruler },
+                    { label: 'Unit', value: product.unit || 'Each', icon: BoxesIcon },
                     { label: 'Minimum Order Qty', value: String(product.moq || 1), icon: BoxesIcon },
                     { label: 'Price Basis', value: product.priceBasis || 'Market reference', icon: Tag },
+                    { label: 'Market Reference Price', value: `$${product.marketPrice.toFixed(2)}`, icon: Tag },
+                    { label: 'Chittety Estimated Price', value: `$${product.chittetyPrice.toFixed(2)}`, icon: Tag },
+                    { label: 'Availability', value: product.availability || 'Confirm Stock', icon: Info },
                   ]
                     .filter((row) => row.value)
                     .map((row, idx) => (
@@ -370,9 +343,9 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
                         key={idx}
                         className={idx % 2 === 0 ? 'bg-white' : 'bg-[#F9FAFB]'}
                       >
-                        <td className="px-4 py-2.5 text-[#6B7280] font-medium w-40 border-b border-[#E5E7EB] last:border-b-0">
+                        <td className="px-4 py-2.5 text-[#6B7280] font-medium w-44 border-b border-[#E5E7EB] last:border-b-0">
                           <div className="flex items-center gap-2">
-                            <row.icon className="size-3.5 text-[#9CA3AF]" />
+                            <row.icon className="size-3.5 text-[#9CA3AF] shrink-0" />
                             {row.label}
                           </div>
                         </td>
@@ -386,11 +359,11 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
             </div>
           </section>
 
-          {/* Applications / Use Cases */}
+          {/* Common Use Cases */}
           <section>
-            <h2 className="text-base font-semibold text-[#111827] mb-3">Applications &amp; Use Cases</h2>
+            <h2 className="text-base font-semibold text-[#111827] mb-3">Common Use Cases</h2>
             <div className="flex flex-wrap gap-2">
-              {['Construction', 'Renovation', 'Maintenance', 'Commercial Projects', 'Residential Projects'].map(
+              {['Construction', 'Renovation', 'Maintenance', 'Commercial Projects', 'Residential Projects', 'Infrastructure'].map(
                 (app) => (
                   <span
                     key={app}
@@ -412,22 +385,34 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
                   onClick={() => {
                     const catCode = getCategoryCode(product.category);
                     onClose();
-                    // Navigate back to products filtered by category
                     const nav = useNavigation.getState();
                     nav.filterByCategory(catCode);
                   }}
                   className="text-xs text-[#C8A44D] hover:text-[#B8943F] font-medium transition-colors"
                 >
-                  View All →
+                  View All
                 </button>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {relatedProducts.map((rp) => (
                   <ProductCard key={rp.sku} product={rp} />
                 ))}
               </div>
             </section>
           )}
+
+          {/* Photo Note */}
+          <div className="rounded-lg border border-[#E5E7EB] bg-[#F9FAFB] p-4">
+            <div className="flex gap-3">
+              <Info className="size-4 text-[#6B7280] shrink-0 mt-0.5" />
+              <div className="space-y-1">
+                <p className="text-xs font-semibold text-[#374151]">Product Photos</p>
+                <p className="text-xs text-[#6B7280] leading-relaxed">
+                  Actual product photos can be requested during inquiry where required. Contact our team for detailed images, technical datasheets, or sample requests.
+                </p>
+              </div>
+            </div>
+          </div>
 
           {/* Disclaimer */}
           <div className="rounded-lg border border-amber-200 bg-amber-50/50 p-4">
@@ -436,9 +421,8 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
               <div className="space-y-1">
                 <p className="text-xs font-semibold text-amber-800">Important Notice</p>
                 <p className="text-xs text-amber-700/80 leading-relaxed">
-                  Product images are representative. Specifications may vary. Final pricing depends on
-                  vendor availability, quantity, delivery location and market conditions. Contact us
-                  for an accurate quote.
+                  Specifications may vary. Final pricing depends on vendor availability, quantity, delivery
+                  location, and market conditions. Contact us for an accurate quote.
                 </p>
               </div>
             </div>
@@ -450,7 +434,7 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
 
   return (
     <Sheet open={open} onOpenChange={(o) => !o && onClose()}>
-      <SheetContent side="right" className="w-full sm:max-w-[700px] md:max-w-[860px] p-0 overflow-hidden">
+      <SheetContent side="right" className="w-full sm:max-w-[640px] md:max-w-[780px] p-0 overflow-hidden">
         <SheetHeader className="px-6 pt-5 pb-3">
           <SheetTitle className="text-base font-semibold text-[#111827]">
             Product Details

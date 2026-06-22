@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigation } from '@/store/navigation';
 import {
   Dialog,
@@ -21,7 +21,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { Loader2 } from 'lucide-react';
+import { Loader2, Upload, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const CATEGORY_OPTIONS = [
@@ -43,6 +43,15 @@ const PROJECT_TYPE_OPTIONS = [
   'Other',
 ];
 
+const REQUIREMENT_TYPE_OPTIONS = [
+  'Standard Order',
+  'Bulk Supply',
+  'Custom/Bespoke',
+  'Urgent Delivery',
+  'Site Inspection Needed',
+  'Other',
+];
+
 interface FormData {
   name: string;
   phone: string;
@@ -51,8 +60,11 @@ interface FormData {
   projectType: string;
   category: string;
   sku: string;
+  productName: string;
+  brand: string;
   quantity: string;
   deliveryLocation: string;
+  requirementType: string;
   message: string;
 }
 
@@ -60,6 +72,10 @@ export function QuoteDialog() {
   const { quoteDialogOpen, closeQuoteDialog, quotePrefill } = useNavigation();
   const { toast } = useToast();
   const [submitting, setSubmitting] = useState(false);
+  const materialListRef = useRef<HTMLInputElement>(null);
+  const sitePhotoRef = useRef<HTMLInputElement>(null);
+  const [materialFileName, setMaterialFileName] = useState('');
+  const [sitePhotoFileName, setSitePhotoFileName] = useState('');
 
   const [form, setForm] = useState<FormData>({
     name: '',
@@ -69,20 +85,24 @@ export function QuoteDialog() {
     projectType: '',
     category: '',
     sku: '',
+    productName: '',
+    brand: '',
     quantity: '',
     deliveryLocation: '',
+    requirementType: '',
     message: '',
   });
 
-  // Prefill form when dialog opens with product data
   useEffect(() => {
     if (quoteDialogOpen && quotePrefill) {
       setForm((prev) => ({
         ...prev,
         sku: quotePrefill.sku || '',
+        productName: quotePrefill.productName || '',
         category: quotePrefill.category || '',
+        brand: quotePrefill.brand || '',
         message: quotePrefill.productName
-          ? `Interested in: ${quotePrefill.productName}`
+          ? `Interested in: ${quotePrefill.productName}${quotePrefill.brand ? ` by ${quotePrefill.brand}` : ''}`
           : prev.message,
       }));
     }
@@ -95,11 +115,17 @@ export function QuoteDialog() {
         projectType: '',
         category: '',
         sku: '',
+        productName: '',
+        brand: '',
         quantity: '',
         deliveryLocation: '',
+        requirementType: '',
         message: '',
       });
     }
+    // Reset file names when dialog opens
+    setMaterialFileName('');
+    setSitePhotoFileName('');
   }, [quoteDialogOpen, quotePrefill]);
 
   const updateField = (field: keyof FormData, value: string) => {
@@ -134,7 +160,7 @@ export function QuoteDialog() {
 
       toast({
         title: 'Quote request submitted',
-        description: 'We will get back to you shortly.',
+        description: 'We will get back to you within 24 hours.',
       });
       closeQuoteDialog();
     } catch (err) {
@@ -148,6 +174,16 @@ export function QuoteDialog() {
     }
   };
 
+  const handleFileChange = (type: 'material' | 'site', files: FileList | null) => {
+    if (!files || files.length === 0) return;
+    // Store filename for display; actual upload requires backend storage (pending)
+    if (type === 'material') {
+      setMaterialFileName(files[0].name);
+    } else {
+      setSitePhotoFileName(files[0].name);
+    }
+  };
+
   return (
     <Dialog open={quoteDialogOpen} onOpenChange={(open) => !open && closeQuoteDialog()}>
       <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto">
@@ -156,12 +192,31 @@ export function QuoteDialog() {
             Request a Quote
           </DialogTitle>
           <DialogDescription>
-            Fill in the details below and our team will get back to you within 24
-            hours.
+            Fill in the details below and our team will get back to you within 24 hours.
           </DialogDescription>
         </DialogHeader>
 
         <div className="grid gap-4 py-2">
+          {/* Prefilled Product Info (read-only) */}
+          {form.sku && (
+            <div className="rounded-md border border-[#E5E7EB] bg-[#F9FAFB] p-3 space-y-1">
+              <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+                <div>
+                  <span className="text-[#9CA3AF]">SKU: </span>
+                  <span className="font-mono font-medium text-[#374151]">{form.sku}</span>
+                </div>
+                <div>
+                  <span className="text-[#9CA3AF]">Brand: </span>
+                  <span className="font-medium text-[#374151]">{form.brand || '—'}</span>
+                </div>
+                <div className="col-span-2">
+                  <span className="text-[#9CA3AF]">Product: </span>
+                  <span className="font-medium text-[#374151]">{form.productName || '—'}</span>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Name & Phone */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="space-y-1.5">
@@ -203,7 +258,7 @@ export function QuoteDialog() {
               />
             </div>
             <div className="space-y-1.5">
-              <Label htmlFor="q-company">Company</Label>
+              <Label htmlFor="q-company">Company Name</Label>
               <Input
                 id="q-company"
                 placeholder="Company name"
@@ -213,7 +268,7 @@ export function QuoteDialog() {
             </div>
           </div>
 
-          {/* Project Type & Category */}
+          {/* Project Type & Requirement Type */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="space-y-1.5">
               <Label>Project Type</Label>
@@ -234,6 +289,28 @@ export function QuoteDialog() {
               </Select>
             </div>
             <div className="space-y-1.5">
+              <Label>Requirement Type</Label>
+              <Select
+                value={form.requirementType}
+                onValueChange={(val) => updateField('requirementType', val)}
+              >
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select type" />
+                </SelectTrigger>
+                <SelectContent>
+                  {REQUIREMENT_TYPE_OPTIONS.map((opt) => (
+                    <SelectItem key={opt} value={opt}>
+                      {opt}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+
+          {/* Category & SKU (if not prefilled) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="space-y-1.5">
               <Label>Category</Label>
               <Select
                 value={form.category}
@@ -250,19 +327,6 @@ export function QuoteDialog() {
                   ))}
                 </SelectContent>
               </Select>
-            </div>
-          </div>
-
-          {/* SKU & Quantity */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div className="space-y-1.5">
-              <Label htmlFor="q-sku">SKU</Label>
-              <Input
-                id="q-sku"
-                placeholder="e.g. CC-PLB-0001"
-                value={form.sku}
-                onChange={(e) => updateField('sku', e.target.value)}
-              />
             </div>
             <div className="space-y-1.5">
               <Label htmlFor="q-qty">Quantity</Label>
@@ -288,6 +352,54 @@ export function QuoteDialog() {
             />
           </div>
 
+          {/* Upload Material List */}
+          <div className="space-y-1.5">
+            <Label>Upload Material List (optional)</Label>
+            <div
+              onClick={() => materialListRef.current?.click()}
+              className="flex items-center gap-2 rounded-md border border-dashed border-[#D1D5DB] bg-[#F9FAFB] px-3 py-2.5 cursor-pointer hover:border-[#9CA3AF] transition-colors text-xs text-[#6B7280]"
+            >
+              <Upload className="size-3.5 text-[#9CA3AF]" />
+              {materialFileName ? (
+                <span className="flex-1 truncate text-[#374151] font-medium">{materialFileName}</span>
+              ) : (
+                <span>Click to upload material list (PDF, Excel, images)</span>
+              )}
+              {materialFileName && <X className="size-3 text-[#9CA3AF]" onClick={(e) => { e.stopPropagation(); setMaterialFileName(''); }} />}
+            </div>
+            <input
+              ref={materialListRef}
+              type="file"
+              className="hidden"
+              accept=".pdf,.xlsx,.xls,.csv,.jpg,.jpeg,.png"
+              onChange={(e) => handleFileChange('material', e.target.files)}
+            />
+          </div>
+
+          {/* Upload Site Photo */}
+          <div className="space-y-1.5">
+            <Label>Upload Site Photo (optional)</Label>
+            <div
+              onClick={() => sitePhotoRef.current?.click()}
+              className="flex items-center gap-2 rounded-md border border-dashed border-[#D1D5DB] bg-[#F9FAFB] px-3 py-2.5 cursor-pointer hover:border-[#9CA3AF] transition-colors text-xs text-[#6B7280]"
+            >
+              <Upload className="size-3.5 text-[#9CA3AF]" />
+              {sitePhotoFileName ? (
+                <span className="flex-1 truncate text-[#374151] font-medium">{sitePhotoFileName}</span>
+              ) : (
+                <span>Click to upload site photo (JPG, PNG)</span>
+              )}
+              {sitePhotoFileName && <X className="size-3 text-[#9CA3AF]" onClick={(e) => { e.stopPropagation(); setSitePhotoFileName(''); }} />}
+            </div>
+            <input
+              ref={sitePhotoRef}
+              type="file"
+              className="hidden"
+              accept=".jpg,.jpeg,.png"
+              onChange={(e) => handleFileChange('site', e.target.files)}
+            />
+          </div>
+
           {/* Message */}
           <div className="space-y-1.5">
             <Label htmlFor="q-message">Message</Label>
@@ -308,7 +420,7 @@ export function QuoteDialog() {
           <Button
             onClick={handleSubmit}
             disabled={submitting}
-            className="bg-accent hover:bg-accent/90 text-white"
+            className="bg-[#C8A44D] hover:bg-[#B8943F] text-white"
           >
             {submitting && <Loader2 className="size-4 animate-spin" />}
             Submit Quote Request

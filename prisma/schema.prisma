@@ -48,6 +48,8 @@ model QuoteRequest {
   sku               String   @default("")
   quantity          Int      @default(1)
   deliveryLocation String   @default("")
+  requirementType   String   @default("")
   message           String   @default("")
+  status            String   @default("New")
   createdAt         DateTime @default(now())
 }

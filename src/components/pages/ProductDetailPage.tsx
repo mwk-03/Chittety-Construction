@@ -7,7 +7,7 @@ import { useNavigation } from '@/store/navigation';
 import { ProductDetail } from '@/components/products/ProductDetail';
 
 export function ProductDetailPage() {
-  const { selectedProductSku, navigateTo, selectedCategory } = useNavigation();
+  const { selectedProductSku, closeProductDetail, selectedCategory } = useNavigation();
   const [productCategory, setProductCategory] = useState<string>('');
 
   // Fetch product to get category for breadcrumb
@@ -25,9 +25,7 @@ export function ProductDetailPage() {
       .catch(() => {});
   }, [selectedProductSku]);
 
-  const handleBack = () => {
-    navigateTo('products');
-  };
+  const handleBack = closeProductDetail;
 
   if (!selectedProductSku) {
     return (

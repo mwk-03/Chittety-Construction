@@ -1,19 +1,9 @@
 import { create } from 'zustand';
 
-export type PageSection = 
-  | 'home'
-  | 'products'
-  | 'product-detail'
-  | 'services'
-  | 'service-detail'
-  | 'about'
-  | 'industries'
-  | 'vendor-network'
-  | 'wholesale'
-  | 'resources'
-  | 'faq'
-  | 'contact'
-  | 'policy';
+export type PageSection =
+  | 'home' | 'products' | 'product-detail' | 'services' | 'service-detail'
+  | 'about' | 'industries' | 'vendor-network' | 'wholesale' | 'resources'
+  | 'faq' | 'contact' | 'policy';
 
 interface NavigationState {
   currentPage: PageSection;
@@ -29,12 +19,14 @@ interface NavigationState {
     sku?: string;
     productName?: string;
     category?: string;
+    brand?: string;
   } | null;
 }
 
 interface NavigationActions {
   navigateTo: (page: PageSection) => void;
   viewProduct: (sku: string) => void;
+  closeProductDetail: () => void;
   viewService: (code: string) => void;
   viewPolicy: (policy: string) => void;
   filterByCategory: (category: string | null) => void;
@@ -61,6 +53,7 @@ export const useNavigation = create<NavigationState & NavigationActions>((set) =
 
   navigateTo: (page) => set({ currentPage: page, mobileMenuOpen: false }),
   viewProduct: (sku) => set({ currentPage: 'product-detail', selectedProductSku: sku, mobileMenuOpen: false }),
+  closeProductDetail: () => set({ selectedProductSku: null, mobileMenuOpen: false }),
   viewService: (code) => set({ currentPage: 'service-detail', selectedServiceCode: code, mobileMenuOpen: false }),
   viewPolicy: (policy) => set({ currentPage: 'policy', selectedPolicy: policy, mobileMenuOpen: false }),
   filterByCategory: (category) => set({ currentPage: 'products', selectedCategory: category, mobileMenuOpen: false }),
