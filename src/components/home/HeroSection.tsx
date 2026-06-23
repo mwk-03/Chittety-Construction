@@ -26,9 +26,9 @@ export default function HeroSection() {
               Browse Products
             </Button>
             <Button
-              onClick={() => openQuoteDialog()}
+              onClick={() => openQuoteDialog({ source: 'Home Hero', requirementType: 'Quote Request' })}
               variant="outline"
-              className="h-12 rounded-md border-white px-8 text-base font-medium text-white hover:bg-white/10 hover:text-white"
+              className="h-12 rounded-md border-white bg-transparent px-8 text-base font-medium text-white hover:bg-white/10 hover:text-white"
             >
               Request Quote
             </Button>

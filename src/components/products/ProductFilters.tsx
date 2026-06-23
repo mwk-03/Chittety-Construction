@@ -358,7 +358,7 @@ export function ProductFilters({
     <>
       {/* Desktop sidebar */}
       <aside className="hidden lg:block w-64 shrink-0">
-        <div className="sticky top-24 rounded-lg border border-[#E5E7EB] bg-white p-4">
+        <div className="sticky top-[8.5rem] rounded-lg border border-[#E5E7EB] bg-white p-4 shadow-[0_1px_3px_rgba(17,24,39,0.04)]">
           {filterContent}
         </div>
       </aside>

@@ -5,11 +5,19 @@ import path from 'path';
 const IMAGES_MAP_FILE = path.join(process.cwd(), 'src/lib/data/product-images.json');
 const PRODUCTS_FILE = path.join(process.cwd(), 'src/lib/data/products.json');
 
+interface ProductImageData {
+  sku: string;
+  productType: string;
+}
+
+type ImagesMap = Record<string, string[]>;
+type TypeToSlugMap = Record<string, string>;
+
 function toSlug(productType: string): string {
   return productType.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
 }
 
-function getImagesMap() {
+function getImagesMap(): ImagesMap {
   try {
     if (fs.existsSync(IMAGES_MAP_FILE)) {
       return JSON.parse(fs.readFileSync(IMAGES_MAP_FILE, 'utf-8'));
@@ -18,10 +26,10 @@ function getImagesMap() {
   return {};
 }
 
-function getTypeToSlugMap() {
+function getTypeToSlugMap(): TypeToSlugMap {
   try {
-    const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'));
-    const map = {};
+    const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8')) as ProductImageData[];
+    const map: TypeToSlugMap = {};
     for (const p of products) {
       if (!map[p.productType]) {
         map[p.productType] = toSlug(p.productType);
@@ -41,7 +49,7 @@ export async function GET(request: Request) {
   const typeToSlug = getTypeToSlugMap();
   
   if (sku) {
-    const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'));
+    const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8')) as ProductImageData[];
     const product = products.find((p) => p.sku === sku);
     if (product) {
       const slug = typeToSlug[product.productType] || toSlug(product.productType);

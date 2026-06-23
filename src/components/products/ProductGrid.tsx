@@ -16,8 +16,8 @@ interface ProductGridProps {
 
 function SkeletonCard() {
   return (
-    <div className="rounded-lg border border-[#E5E7EB] bg-white overflow-hidden">
-      <div className="p-4 space-y-3">
+    <div className="h-full min-h-[22rem] overflow-hidden rounded-lg border border-[#E5E7EB] bg-white">
+      <div className="flex h-full flex-col space-y-3 p-4">
         <div className="flex items-start justify-between">
           <div className="space-y-2 flex-1">
             <Skeleton className="h-3 w-20" />
@@ -88,7 +88,7 @@ export function ProductGrid({
         <div className="mb-4">
           <Skeleton className="h-4 w-40" />
         </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid auto-rows-fr grid-cols-1 items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {Array.from({ length: 8 }).map((_, i) => (
             <SkeletonCard key={i} />
           ))}
@@ -127,7 +127,7 @@ export function ProductGrid({
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid auto-rows-fr grid-cols-1 items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {products.map((product) => (
           <ProductCard key={product.sku} product={product} />
         ))}

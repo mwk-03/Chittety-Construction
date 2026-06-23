@@ -45,7 +45,7 @@ const FAQS = [
   {
     question: 'Do product images show exact products?',
     answer:
-      'Product images on our platform are representative and may not show the exact product you receive. Construction materials often have variations in color, texture, finish, and dimensions due to manufacturing processes, material batches, and supplier variations. While we strive to provide images that accurately represent the product category and general appearance, the actual product may differ slightly from what is shown. We recommend reviewing product specifications carefully and requesting clarification if exact appearance is critical for your project. Detailed specifications are available upon request.',
+      'Our catalog is intentionally specification-led and does not display product images. This avoids misleading customers when color, finish, packaging, or manufacturer batches vary. Actual product photos can be requested during an inquiry where appearance is important, and customers should confirm specifications before ordering.',
   },
   {
     question: 'Can you source products not listed?',
@@ -72,6 +72,19 @@ const FAQS = [
     answer:
       'Requesting a quote is simple. You can use our quote request form available on the website by clicking any "Request Quote" or "Get Pricing" button. Fill in your contact details, project information, product or service requirements, and any specific notes about your project. Alternatively, you can contact us directly via phone or email. Once we receive your request, our team reviews the details and responds within 24 hours with a quote or follow-up questions. For services, we will schedule a site inspection before providing the final quote. For materials, we check availability and provide pricing based on your specifications.',
   },
+  { question: 'Is Chittety Construction an ecommerce store?', answer: 'No. The website is a product catalog and inquiry platform. Displayed prices are market references or estimates, and orders are finalized through quotation, availability confirmation, delivery review, and direct coordination.' },
+  { question: 'Can homeowners use the platform?', answer: 'Yes. Homeowners can browse products, compare categories, request material guidance, submit project requirements, and ask for quotation or service coordination support.' },
+  { question: 'Do you work with businesses and property managers?', answer: 'Yes. We support contractors, builders, property managers, commercial facilities, businesses, and project teams with recurring supply, bulk orders, vendor sourcing, and multi-category procurement.' },
+  { question: 'Can I upload a material list or BOQ?', answer: 'Yes. The quote and support flows allow you to identify or attach a material list. Our team reviews product descriptions, quantities, specifications, and alternates before responding with sourcing and quotation guidance.' },
+  { question: 'Can I request products and services together?', answer: 'Yes. Share the combined requirement in one inquiry. We can review material supply alongside installation or service coordination and separate the quotation scope where necessary.' },
+  { question: 'How is service pricing determined?', answer: 'Service prices depend on scope, site conditions, access, labor, materials, urgency, permits, and technical requirements. Final service pricing is confirmed after adequate assessment and, where needed, a site inspection.' },
+  { question: 'What areas do you serve?', answer: 'Chittety Construction is based in Plano and serves Dallas–Fort Worth directly. Wider product sourcing and freight-supported procurement may be available through our vendor network across the United States.' },
+  { question: 'Do you provide emergency support?', answer: 'Urgent requests are reviewed based on location, category, product availability, and service-partner capacity. Contact us by phone for time-sensitive needs, but emergency response cannot be guaranteed.' },
+  { question: 'How do vendor relationships help customers?', answer: 'Our vendor network helps us compare availability, identify alternatives, support bulk requirements, match brands and specifications, and coordinate products across multiple construction categories.' },
+  { question: 'Do you provide wholesale distribution?', answer: 'Yes. We support wholesale, contractor supply, B2B sourcing, volume requirements, and repeat procurement. Final pricing depends on quantity, vendor terms, freight, and availability.' },
+  { question: 'What happens after I submit an inquiry?', answer: 'Our team reviews the requirement, confirms any missing specifications, checks vendor options and availability, and then responds with guidance, next steps, or a quotation.' },
+  { question: 'How quickly will I receive a response?', answer: 'Most complete inquiries receive an initial response within one business day. Complex BOQs, special orders, freight requirements, and multi-vendor sourcing may require additional review time.' },
+  { question: 'Is the displayed price the final price?', answer: 'No. Prices are reference estimates and may change with market conditions, quantity, brand, specification, tax, freight, delivery, and vendor availability. Only the issued quotation confirms final pricing and validity.' },
 ];
 
 export function FAQPage() {

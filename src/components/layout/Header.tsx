@@ -2,6 +2,7 @@
 
 import { useNavigation } from '@/store/navigation';
 import { Button } from '@/components/ui/button';
+import { BrandLogo } from '@/components/common/BrandLogo';
 import {
   Sheet,
   SheetContent,
@@ -11,6 +12,7 @@ import {
 import { Phone, Menu } from 'lucide-react';
 import { useState, useCallback } from 'react';
 import type { PageSection } from '@/store/navigation';
+import { CONTACT } from '@/lib/contact';
 
 const NAV_LINKS: { label: string; page: PageSection }[] = [
   { label: 'Home', page: 'home' },
@@ -65,19 +67,20 @@ export function Header() {
   );
 
   return (
-    <header className="sticky top-0 z-50 bg-surface border-b border-border">
+    <header className="sticky top-0 z-[60] h-16 border-b border-[#E5E7EB] bg-white/95 shadow-[0_2px_10px_rgba(17,24,39,0.06)] backdrop-blur-xl supports-[backdrop-filter]:bg-white/90">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <button
             onClick={() => handleNav('home')}
-            className="font-heading font-bold text-lg tracking-widest text-primary hover:opacity-80 transition-opacity"
+            className="shrink-0 rounded-sm transition-opacity hover:opacity-85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+            aria-label="Go to homepage"
           >
-            CHITTETY
+            <BrandLogo variant="header" />
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6">
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
             {NAV_LINKS.map((link) => (
               <NavLink
                 key={link.page}
@@ -92,24 +95,24 @@ export function Header() {
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+14692290728"
+              href={CONTACT.phoneHref}
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="size-4" />
-              (469) 229-0728
+              {CONTACT.phoneDisplay}
             </a>
             <Button
               variant="outline"
               size="sm"
               className="text-xs"
-              onClick={() => window.open('tel:+14692290728')}
+              onClick={() => window.open(CONTACT.phoneHref)}
             >
               Call Now
             </Button>
             <Button
               size="sm"
               className="bg-accent hover:bg-accent/90 text-white text-xs"
-              onClick={() => openQuoteDialog()}
+              onClick={() => openQuoteDialog({ source: 'Header CTA', requirementType: 'Quote Request' })}
             >
               Request Quote
             </Button>
@@ -130,9 +133,16 @@ export function Header() {
       <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
         <SheetContent side="right" className="w-80 p-0">
           <SheetHeader className="px-6 pt-6 pb-4 border-b border-border">
-            <SheetTitle className="font-heading font-bold tracking-widest text-primary">
-              CHITTETY
+            <SheetTitle className="sr-only">
+              Chittety Construction navigation
             </SheetTitle>
+            <button
+              onClick={() => handleNav('home')}
+              className="w-fit rounded-sm transition-opacity hover:opacity-85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+              aria-label="Go to homepage"
+            >
+              <BrandLogo variant="compact" />
+            </button>
           </SheetHeader>
           <nav className="flex flex-col p-4 gap-1">
             {NAV_LINKS.map((link) => (
@@ -154,7 +164,7 @@ export function Header() {
               className="w-full bg-accent hover:bg-accent/90 text-white"
               onClick={() => {
                 setSheetOpen(false);
-                openQuoteDialog();
+                openQuoteDialog({ source: 'Header CTA', requirementType: 'Quote Request' });
               }}
             >
               Request Quote
@@ -162,7 +172,7 @@ export function Header() {
             <Button
               variant="outline"
               className="w-full"
-              onClick={() => window.open('tel:+14692290728')}
+              onClick={() => window.open(CONTACT.phoneHref)}
             >
               <Phone className="size-4" />
               Call Now

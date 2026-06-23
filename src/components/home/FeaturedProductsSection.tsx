@@ -109,7 +109,7 @@ export default function FeaturedProductsSection() {
                     size="sm"
                     onClick={(e) => {
                       e.stopPropagation();
-                      openQuoteDialog({ sku: product.sku, productName: product.name, category: product.category, brand: product.brand });
+                      openQuoteDialog({ sku: product.sku, productName: product.name, category: product.category, brand: product.brand, source: 'Featured Products', requirementType: 'Product Inquiry', priceReference: `$${product.chittetyPrice.toFixed(2)}` });
                     }}
                     className="flex-1 h-7 bg-[#C8A44D] hover:bg-[#B8943F] text-white text-[11px] font-semibold rounded-md"
                   >

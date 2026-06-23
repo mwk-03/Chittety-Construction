@@ -93,7 +93,7 @@ function getPolicyData(policy: string): { title: string; lastUpdated: string; se
           ),
           'contact': (
             <p>
-              If you have any questions about this Privacy Policy or our data practices, please contact us at: Chittety Construction, 6816 Outland Drive, Plano, Texas 75024. You can also reach us by email at info@chittety.com or by phone during our business hours, Monday through Friday, 8:00 AM to 6:00 PM CST.
+              If you have any questions about this Privacy Policy or our data practices, please contact us at: Chittety Construction, 6816 Outland Dr, Plano, TX 75023. You can also reach us by email at Info@chittetyconstruction.com or by phone at +1 (469) 650-9253 during our business hours, Monday through Friday, 8:00 AM to 6:00 PM CST.
             </p>
           ),
         },
@@ -291,7 +291,7 @@ function getPolicyData(policy: string): { title: string; lastUpdated: string; se
           ),
           'contact': (
             <p>
-              For all return and refund inquiries, please contact our team at info@chittety.com or call us during business hours, Monday through Friday, 8:00 AM to 6:00 PM CST. Please have your order number and relevant details ready when you contact us to expedite the process.
+              For all return and refund inquiries, please contact our team at Info@chittetyconstruction.com or call +1 (469) 650-9253 during business hours, Monday through Friday, 8:00 AM to 6:00 PM CST. Please have your order number and relevant details ready when you contact us to expedite the process.
             </p>
           ),
         },
@@ -567,7 +567,7 @@ function getPolicyData(policy: string): { title: string; lastUpdated: string; se
           ),
           'feedback': (
             <p>
-              We welcome feedback on the accessibility of our website. If you encounter any accessibility barriers while using our site, or if you have suggestions for improving accessibility, please contact us at info@chittety.com or call us during business hours, Monday through Friday, 8:00 AM to 6:00 PM CST. Your feedback helps us identify areas for improvement and prioritize our accessibility efforts. If you require assistance accessing information or using our services, our team is happy to provide support through alternative communication channels.
+              We welcome feedback on the accessibility of our website. If you encounter any accessibility barriers while using our site, or if you have suggestions for improving accessibility, please contact us at Info@chittetyconstruction.com or call +1 (469) 650-9253 during business hours, Monday through Friday, 8:00 AM to 6:00 PM CST. Your feedback helps us identify areas for improvement and prioritize our accessibility efforts. If you require assistance accessing information or using our services, our team is happy to provide support through alternative communication channels.
             </p>
           ),
         },

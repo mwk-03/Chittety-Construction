@@ -2,6 +2,7 @@
 
 import { useNavigation } from '@/store/navigation';
 import { Phone, MessageCircle, FileText } from 'lucide-react';
+import { CONTACT } from '@/lib/contact';
 
 export function MobileStickyBar() {
   const { openQuoteDialog } = useNavigation();
@@ -11,7 +12,7 @@ export function MobileStickyBar() {
       <div className="flex items-center justify-around py-2 px-2">
         {/* Call Button */}
         <a
-          href="tel:+14692290728"
+          href={CONTACT.phoneHref}
           className="flex flex-col items-center gap-0.5 py-1 px-3 rounded-md active:bg-muted transition-colors"
         >
           <Phone className="size-5 text-primary" />
@@ -20,7 +21,7 @@ export function MobileStickyBar() {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/14692290728"
+          href={CONTACT.whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center gap-0.5 py-1 px-3 rounded-md active:bg-muted transition-colors"
@@ -31,7 +32,7 @@ export function MobileStickyBar() {
 
         {/* Request Quote Button */}
         <button
-          onClick={() => openQuoteDialog()}
+          onClick={() => openQuoteDialog({ source: 'Mobile Sticky Bar', requirementType: 'Quote Request' })}
           className="flex flex-col items-center gap-0.5 py-1 px-3 rounded-md active:bg-muted transition-colors"
         >
           <FileText className="size-5 text-accent" />
