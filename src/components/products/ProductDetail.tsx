@@ -30,6 +30,7 @@ import {
 } from '@/components/ui/sheet';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useNavigation } from '@/store/navigation';
+import { CONTACT } from '@/lib/contact';
 import { Product, ProductCard } from '@/components/products/ProductCard';
 
 interface ProductDetailProps {
@@ -109,18 +110,21 @@ export function ProductDetail({ sku, open, onClose }: ProductDetailProps) {
       productName: product.name,
       category: product.category,
       brand: product.brand,
+      source: 'Product Detail',
+      requirementType: 'Product Inquiry',
+      priceReference: `$${product.chittetyPrice.toFixed(2)}`,
     });
   };
 
   const handleCallNow = () => {
-    window.open('tel:+14690000000', '_self');
+    window.open(CONTACT.phoneHref, '_self');
   };
 
   const handleWhatsApp = () => {
     const message = product
-      ? `Hi, I'm interested in ${product.name} (${product.sku}). Please share pricing and availability.`
-      : 'Hi, I would like to inquire about a product.';
-    window.open(`https://wa.me/14690000000?text=${encodeURIComponent(message)}`, '_blank');
+      ? `Hello Chittety Construction, I would like to inquire about:\nProduct: ${product.name}\nSKU: ${product.sku}\nCategory: ${product.category}\nQuantity:\nDelivery Location:\n\nPlease share details.`
+      : 'Hello Chittety Construction, I would like to know more about your construction supply and procurement services.';
+    window.open(`${CONTACT.whatsappHref}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const getCategoryCode = (category: string) => {

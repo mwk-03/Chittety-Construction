@@ -11,6 +11,7 @@ interface NavigationState {
   selectedServiceCode: string | null;
   selectedPolicy: string | null;
   selectedCategory: string | null;
+  productFilterResetKey: number;
   selectedServiceCategory: string | null;
   searchQuery: string;
   mobileMenuOpen: boolean;
@@ -20,6 +21,9 @@ interface NavigationState {
     productName?: string;
     category?: string;
     brand?: string;
+    source?: string;
+    requirementType?: string;
+    priceReference?: string;
   } | null;
 }
 
@@ -27,6 +31,8 @@ interface NavigationActions {
   navigateTo: (page: PageSection) => void;
   viewProduct: (sku: string) => void;
   closeProductDetail: () => void;
+  backToProducts: () => void;
+  resetProductFilters: () => void;
   viewService: (code: string) => void;
   viewPolicy: (policy: string) => void;
   filterByCategory: (category: string | null) => void;
@@ -45,15 +51,34 @@ export const useNavigation = create<NavigationState & NavigationActions>((set) =
   selectedServiceCode: null,
   selectedPolicy: null,
   selectedCategory: null,
+  productFilterResetKey: 0,
   selectedServiceCategory: null,
   searchQuery: '',
   mobileMenuOpen: false,
   quoteDialogOpen: false,
   quotePrefill: null,
 
-  navigateTo: (page) => set({ currentPage: page, mobileMenuOpen: false }),
-  viewProduct: (sku) => set({ currentPage: 'product-detail', selectedProductSku: sku, mobileMenuOpen: false }),
-  closeProductDetail: () => set({ selectedProductSku: null, mobileMenuOpen: false }),
+  navigateTo: (page) => set((state) => ({
+    currentPage: page,
+    mobileMenuOpen: false,
+    selectedProductSku: page === 'products' ? null : state.selectedProductSku,
+    selectedCategory: page === 'products' ? null : state.selectedCategory,
+    productFilterResetKey: page === 'products' ? state.productFilterResetKey + 1 : state.productFilterResetKey,
+  })),
+  viewProduct: (sku) => set({ currentPage: 'products', selectedProductSku: sku, mobileMenuOpen: false }),
+  closeProductDetail: () => set({ currentPage: 'products', selectedProductSku: null, mobileMenuOpen: false }),
+  backToProducts: () => set({
+    currentPage: 'products',
+    selectedProductSku: null,
+    selectedCategory: null,
+    quoteDialogOpen: false,
+    quotePrefill: null,
+    mobileMenuOpen: false,
+  }),
+  resetProductFilters: () => set((state) => ({
+    selectedCategory: null,
+    productFilterResetKey: state.productFilterResetKey + 1,
+  })),
   viewService: (code) => set({ currentPage: 'service-detail', selectedServiceCode: code, mobileMenuOpen: false }),
   viewPolicy: (policy) => set({ currentPage: 'policy', selectedPolicy: policy, mobileMenuOpen: false }),
   filterByCategory: (category) => set({ currentPage: 'products', selectedCategory: category, mobileMenuOpen: false }),

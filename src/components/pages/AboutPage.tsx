@@ -15,7 +15,40 @@ import {
   ArrowRight,
   CheckCircle2,
   Building2,
+  Network,
+  ClipboardList,
 } from 'lucide-react';
+
+const WHAT_WE_DO = [
+  'Construction material supply', 'Plumbing, bathroom, sewer, pump, and water-system sourcing',
+  'Electrical wiring, lighting, fan, AC, and water-heater support products',
+  'Flooring, tiles, adhesives, grouts, trims, roofing, and waterproofing materials',
+  'Steel fabrication, building materials, door hardware, kitchen accessories, tools, and safety equipment',
+  'Contractor supply, wholesale sourcing, bulk orders, BOQ assistance, and project procurement support',
+];
+
+const VENDOR_SUPPORT = [
+  'Product sourcing from trusted suppliers', 'Material comparison and alternative-product assistance',
+  'Bulk-order and contractor supply coordination', 'Brand, specification, and availability matching',
+  'Special-order and multi-category procurement support', 'Service-partner coordination where required',
+];
+
+const APPROACH = [
+  ['Understand the Requirement', 'Review the product, service, quantity, location, project type, or material list.'],
+  ['Review the Category', 'Confirm specifications, brand preference, usage purpose, quantity, and project needs.'],
+  ['Evaluate Vendors', 'Check availability, alternatives, market-reference pricing, and supplier options.'],
+  ['Support the Quotation', 'Provide pricing guidance and clear product or service information.'],
+  ['Coordinate Supply', 'Arrange material supply, delivery coordination, or vendor assignment where applicable.'],
+  ['Support the Project', 'Assist larger requirements with service coordination or procurement planning.'],
+];
+
+const TRUST_POINTS = [
+  '10+ years of practical industry experience', 'Ground-level vendor relationships',
+  'Wide construction product catalog', 'B2B and B2C supply support',
+  'Wholesale and bulk-order assistance', 'Residential and commercial project support',
+  'Multi-category procurement capability', 'Transparent quotation-driven model',
+  'Vendor-backed sourcing approach', 'Practical knowledge of materials and site requirements',
+];
 
 const VALUES = [
   {
@@ -72,7 +105,7 @@ const SAFETY_POINTS = [
 ];
 
 export function AboutPage() {
-  const { navigateTo } = useNavigation();
+  const { navigateTo, openQuoteDialog } = useNavigation();
 
   return (
     <main className="min-h-screen bg-background">
@@ -85,13 +118,24 @@ export function AboutPage() {
             </div>
           </div>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground tracking-tight max-w-3xl">
-            About Chittety Construction
+            A Trusted Construction Supply, Vendor Network &amp; Procurement Partner
           </h1>
           <p className="mt-6 text-text-secondary text-base md:text-lg leading-relaxed max-w-3xl">
-            Chittety Construction has been serving the construction industry for more than 10 years, working directly at ground level with vendors, suppliers, contractors, technicians, builders, project teams and material providers. The company has built a strong vendor base across the USA and supports residential, commercial, industrial and project-based construction requirements.
+            For more than 10 years, Chittety Construction has worked at the ground level of the construction industry, building strong relationships with vendors, suppliers, contractors, technicians, project teams, and material providers across the United States.
           </p>
         </div>
       </section>
+
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 space-y-14">
+        <div><p className="text-sm font-semibold uppercase tracking-wider text-accent mb-2">About Chittety Construction</p><h2 className="text-3xl font-bold text-foreground mb-5">Company Overview</h2><div className="space-y-4 text-text-secondary leading-relaxed"><p>Chittety Construction is a construction supply, sourcing, vendor network, wholesale distribution, and project support company serving residential, commercial, industrial, and infrastructure-related requirements. The company combines more than a decade of practical experience with direct vendor relationships and a ground-level understanding of how projects move from planning to sourcing, delivery, installation, and maintenance.</p><p>Unlike a contractor-listing or technician-booking website, Chittety Construction acts as a bridge between customers, contractors, vendors, suppliers, and service providers. We help clients identify suitable materials, compare available options, request quotations, source through vendor networks, and coordinate service support where required.</p><p>Our categories include plumbing, drainage, pumps, electrical, lighting, flooring, roofing, waterproofing, steel, building materials, door hardware, kitchen accessories, tools, safety equipment, and project-based procurement.</p></div></div>
+        <div><h2 className="text-3xl font-bold text-foreground mb-5">Our Story</h2><div className="space-y-4 text-text-secondary leading-relaxed"><p>Chittety Construction was created to make construction material sourcing more dependable, transparent, and accessible for homeowners, contractors, builders, businesses, and project teams.</p><p>Hands-on work with vendors and construction professionals revealed recurring challenges: inconsistent pricing, unclear specifications, limited availability, supply delays, difficult comparisons, and weak coordination between product supply and service execution. In response, the company developed a broad network of material providers, distributors, contractors, technicians, and specialist vendors capable of supporting both individual inquiries and multi-category project requirements.</p><p>Today, Chittety Construction combines traditional vendor relationships with a clean digital catalog where customers can explore products and services, understand options, request quotations, and connect directly with our team.</p></div></div>
+      </section>
+
+      <section className="bg-white border-y border-border"><div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20"><div className="grid md:grid-cols-2 gap-12"><div><div className="size-11 rounded-lg bg-accent/10 flex items-center justify-center mb-5"><ClipboardList className="size-5 text-accent" /></div><h2 className="text-3xl font-bold text-foreground mb-5">What We Do</h2><p className="text-text-secondary leading-relaxed mb-6">We provide materials, sourcing assistance, vendor coordination, wholesale supply support, and project support across major construction categories.</p><ul className="space-y-3">{WHAT_WE_DO.map((item) => <li key={item} className="flex gap-3 text-sm text-text-secondary"><CheckCircle2 className="size-4 text-accent shrink-0 mt-0.5" />{item}</li>)}</ul></div><div><div className="size-11 rounded-lg bg-accent/10 flex items-center justify-center mb-5"><Network className="size-5 text-accent" /></div><h2 className="text-3xl font-bold text-foreground mb-5">Our Vendor Network</h2><p className="text-text-secondary leading-relaxed mb-6">Relationships with vendors, distributors, product suppliers, contractors, technicians, and service partners across the United States help us support multiple options, special orders, and project-specific supply needs.</p><ul className="space-y-3">{VENDOR_SUPPORT.map((item) => <li key={item} className="flex gap-3 text-sm text-text-secondary"><CheckCircle2 className="size-4 text-accent shrink-0 mt-0.5" />{item}</li>)}</ul></div></div></div></section>
+
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20"><div className="text-center mb-12"><h2 className="text-3xl md:text-4xl font-bold text-foreground">Our Approach</h2><p className="mt-3 text-text-secondary">A clear, quotation-driven process from requirement to project support.</p></div><div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">{APPROACH.map(([title, description], index) => <Card key={title} className="py-0"><CardContent className="p-6"><span className="text-sm font-bold text-accent">Step {index + 1}</span><h3 className="font-semibold text-foreground mt-2 mb-2">{title}</h3><p className="text-sm text-text-secondary leading-relaxed">{description}</p></CardContent></Card>)}</div></section>
+
+      <section className="bg-muted/50 border-y border-border"><div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20"><h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-10">Why Customers Trust Us</h2><div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">{TRUST_POINTS.map((item) => <div key={item} className="flex gap-3 rounded-lg border border-border bg-white p-4 text-sm text-text-secondary"><CheckCircle2 className="size-4 text-accent shrink-0 mt-0.5" />{item}</div>)}</div></div></section>
 
       {/* Mission & Vision */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
@@ -211,18 +255,16 @@ export function AboutPage() {
       <section className="bg-foreground">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight mb-4">
-            Ready to Work With Us?
+            Need Construction Materials or Project Support?
           </h2>
           <p className="text-white/70 max-w-lg mx-auto mb-8">
-            Whether you need materials, services, or project support, our team is ready to assist. Get in touch to discuss your requirements.
+            Whether you are a homeowner, contractor, builder, property manager, or business owner, we can help you source materials, compare options, request quotations, and coordinate construction-related requirements.
           </p>
-          <Button
-            size="lg"
-            className="bg-accent hover:bg-accent/90 text-white"
-            onClick={() => navigateTo('contact')}
-          >
-            Get Started <ArrowRight className="w-4 h-4 ml-1" />
-          </Button>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-white" onClick={() => openQuoteDialog()}>Request Quote</Button>
+            <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 hover:text-white" onClick={() => navigateTo('products')}>Browse Products</Button>
+            <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 hover:text-white" onClick={() => navigateTo('contact')}>Contact Chittety Construction <ArrowRight className="w-4 h-4 ml-1" /></Button>
+          </div>
         </div>
       </section>
     </main>

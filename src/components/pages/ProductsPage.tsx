@@ -18,8 +18,23 @@ const CATEGORIES = [
   { code: 'HST', name: 'Hardware, Steel, Tools, Safety & Kitchen', label: 'Hardware / Steel / Tools' },
 ];
 
+const EMPTY_FILTERS: FilterParams = {
+  search: '',
+  category: '',
+  subcategory: '',
+  brand: '',
+  minPrice: '',
+  maxPrice: '',
+  sort: 'sku',
+};
+
+function normalizeCategory(category: string | null) {
+  if (!category) return '';
+  return CATEGORIES.find((item) => item.code === category || item.name === category)?.code || '';
+}
+
 export function ProductsPage() {
-  const { selectedCategory, selectedProductSku, closeProductDetail } = useNavigation();
+  const { selectedCategory, selectedProductSku, closeProductDetail, productFilterResetKey } = useNavigation();
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
@@ -29,26 +44,26 @@ export function ProductsPage() {
   const [availableBrands, setAvailableBrands] = useState<string[]>([]);
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
 
-  const [filters, setFilters] = useState<FilterParams>({
-    search: '',
-    category: '',
-    subcategory: '',
-    brand: '',
-    minPrice: '',
-    maxPrice: '',
-    sort: 'sku',
-  });
+  const [filters, setFilters] = useState<FilterParams>(EMPTY_FILTERS);
 
   // Apply selectedCategory from store when it changes
   useEffect(() => {
-    if (selectedCategory) {
+    const category = normalizeCategory(selectedCategory);
+    if (category) {
       setFilters((prev) => ({
         ...prev,
-        category: prev.category === selectedCategory ? prev.category : selectedCategory,
+        category,
+        subcategory: '',
+        brand: '',
       }));
       setPage(1);
     }
   }, [selectedCategory]);
+
+  useEffect(() => {
+    setFilters(EMPTY_FILTERS);
+    setPage(1);
+  }, [productFilterResetKey]);
 
   const fetchProducts = useCallback(async () => {
     setLoading(true);
@@ -95,15 +110,7 @@ export function ProductsPage() {
   );
 
   const handleClearAll = useCallback(() => {
-    setFilters({
-      search: '',
-      category: '',
-      subcategory: '',
-      brand: '',
-      minPrice: '',
-      maxPrice: '',
-      sort: 'sku',
-    });
+    setFilters(EMPTY_FILTERS);
     setPage(1);
   }, []);
 
@@ -141,8 +148,8 @@ export function ProductsPage() {
   return (
     <div className="min-h-screen bg-[#FAFAFA]">
       {/* Page Header */}
-      <section className="border-b border-[#E5E7EB] bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 md:py-12">
+      <section className="relative z-10 border-b border-[#E5E7EB] bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 md:py-12">
           <h1 className="text-2xl md:text-3xl font-bold text-[#111827] tracking-tight">
             Product Catalog
           </h1>
@@ -153,8 +160,8 @@ export function ProductsPage() {
       </section>
 
       {/* Category Quick Filter Pills */}
-      <section className="border-b border-[#E5E7EB] bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4">
+      <section className="sticky top-16 z-40 border-b border-[#E5E7EB] bg-white/95 shadow-[0_3px_8px_rgba(17,24,39,0.04)] backdrop-blur-lg supports-[backdrop-filter]:bg-white/90">
+        <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6">
           <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-hide">
             <button
               onClick={() => handleCategoryQuickFilter('')}
@@ -184,7 +191,7 @@ export function ProductsPage() {
       </section>
 
       {/* Main Content: Filters + Grid */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6 md:py-8">
+      <section className="relative z-0 mx-auto max-w-7xl px-4 py-6 pb-28 sm:px-6 md:py-8 md:pb-10">
         {/* Mobile filter toggle */}
         <div className="flex items-center justify-between mb-4 lg:hidden">
           <Button
@@ -211,7 +218,7 @@ export function ProductsPage() {
           )}
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex items-start gap-6">
           {/* Desktop Filters */}
           <ProductFilters
             filters={filters}

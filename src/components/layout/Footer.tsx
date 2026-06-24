@@ -1,9 +1,13 @@
 'use client';
 
+import Link from 'next/link';
 import { useNavigation } from '@/store/navigation';
 import { Separator } from '@/components/ui/separator';
+import { BrandLogo } from '@/components/common/BrandLogo';
 import { MapPin, Clock } from 'lucide-react';
 import type { PageSection } from '@/store/navigation';
+import { CONTACT } from '@/lib/contact';
+import { LEGAL_LINKS } from '@/lib/legal-policies';
 
 const COMPANY_LINKS: { label: string; page: PageSection }[] = [
   { label: 'About', page: 'about' },
@@ -56,9 +60,9 @@ const RESOURCE_LINKS: { label: string; page: PageSection }[] = [
   { label: 'Construction Guides', page: 'resources' },
   { label: 'Material Selection Guides', page: 'resources' },
   { label: 'FAQ', page: 'faq' },
-  { label: 'Warranty Info', page: 'policy' },
+  { label: 'Warranty Info', page: 'resources' },
   { label: 'Delivery Info', page: 'resources' },
-  { label: 'Support Center', page: 'contact' },
+  { label: 'Support Center', page: 'resources' },
 ];
 
 function FooterLink({
@@ -87,6 +91,13 @@ export function Footer() {
     <footer className="bg-primary text-white mt-auto">
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        <button
+          onClick={() => navigateTo('home')}
+          className="mb-10 block w-fit rounded-sm transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
+          aria-label="Go to homepage"
+        >
+          <BrandLogo variant="footer" />
+        </button>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {/* Company Column */}
           <div>
@@ -176,7 +187,7 @@ export function Footer() {
             <div className="space-y-3 text-sm text-gray-400">
               <div className="flex items-start gap-2">
                 <MapPin className="size-4 mt-0.5 shrink-0 text-accent" />
-                <span>6816 Outland Drive, Plano, Texas 75024</span>
+                <span>{CONTACT.address}</span>
               </div>
               <div className="flex items-start gap-2">
                 <Clock className="size-4 mt-0.5 shrink-0 text-accent" />
@@ -190,6 +201,17 @@ export function Footer() {
       {/* Bottom Bar */}
       <Separator className="bg-white/10" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+        <nav aria-label="Legal policies" className="mb-5 flex flex-wrap justify-center gap-x-5 gap-y-2">
+          {LEGAL_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-xs text-gray-400 transition-colors hover:text-white"
+            >
+              {link.title}
+            </Link>
+          ))}
+        </nav>
         <p className="text-center text-xs text-gray-500">
           Copyright © 2026 Chittety Construction. All Rights Reserved.
         </p>

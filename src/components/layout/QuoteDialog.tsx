@@ -44,11 +44,14 @@ const PROJECT_TYPE_OPTIONS = [
 ];
 
 const REQUIREMENT_TYPE_OPTIONS = [
-  'Standard Order',
-  'Bulk Supply',
-  'Custom/Bespoke',
-  'Urgent Delivery',
-  'Site Inspection Needed',
+  'Product Inquiry',
+  'Quote Request',
+  'Bulk Order',
+  'Contractor Supply',
+  'Wholesale Supply',
+  'Need Installation Too',
+  'Material List Support',
+  'General Contact',
   'Other',
 ];
 
@@ -69,7 +72,7 @@ interface FormData {
 }
 
 export function QuoteDialog() {
-  const { quoteDialogOpen, closeQuoteDialog, quotePrefill } = useNavigation();
+  const { quoteDialogOpen, closeQuoteDialog, quotePrefill, currentPage } = useNavigation();
   const { toast } = useToast();
   const [submitting, setSubmitting] = useState(false);
   const materialListRef = useRef<HTMLInputElement>(null);
@@ -101,6 +104,7 @@ export function QuoteDialog() {
         productName: quotePrefill.productName || '',
         category: quotePrefill.category || '',
         brand: quotePrefill.brand || '',
+        requirementType: quotePrefill.requirementType || prev.requirementType || 'Quote Request',
         message: quotePrefill.productName
           ? `Interested in: ${quotePrefill.productName}${quotePrefill.brand ? ` by ${quotePrefill.brand}` : ''}`
           : prev.message,
@@ -133,10 +137,10 @@ export function QuoteDialog() {
   };
 
   const handleSubmit = async () => {
-    if (!form.name.trim() || !form.phone.trim() || !form.email.trim()) {
+    if (!form.name.trim() || !form.phone.trim()) {
       toast({
         title: 'Required fields',
-        description: 'Name, phone, and email are required.',
+        description: 'Name and phone are required.',
         variant: 'destructive',
       });
       return;
@@ -144,23 +148,39 @@ export function QuoteDialog() {
 
     setSubmitting(true);
     try {
-      const res = await fetch('/api/quote', {
+      const res = await fetch('/api/send-inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ...form,
-          quantity: parseInt(form.quantity) || 1,
+          name: form.name,
+          phone: form.phone,
+          email: form.email,
+          company_name: form.company,
+          product_sku: form.sku,
+          product_name: form.productName,
+          category: form.category,
+          brand: form.brand,
+          price_reference: quotePrefill?.priceReference,
+          quantity: form.quantity,
+          delivery_location: form.deliveryLocation,
+          project_type: form.projectType,
+          requirement_type: form.requirementType || 'Quote Request',
+          message: [form.message, materialFileName ? `Material list filename: ${materialFileName}` : '', sitePhotoFileName ? `Site photo filename: ${sitePhotoFileName}` : ''].filter(Boolean).join('\n'),
+          source: quotePrefill?.source || (form.sku ? 'Product Catalog' : `${currentPage} Page`),
+          page_url: window.location.href,
         }),
       });
 
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.error || 'Failed to submit');
+        throw new Error(data.message || 'Failed to send request');
       }
 
+      const data = await res.json();
+
       toast({
-        title: 'Quote request submitted',
-        description: 'We will get back to you within 24 hours.',
+        title: 'Thank you. Your inquiry has been sent successfully.',
+        description: `Request ID: ${data.request_id}. Our team will contact you soon.`,
       });
       closeQuoteDialog();
     } catch (err) {
@@ -247,7 +267,7 @@ export function QuoteDialog() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="space-y-1.5">
               <Label htmlFor="q-email">
-                Email <span className="text-destructive">*</span>
+                Email
               </Label>
               <Input
                 id="q-email"
@@ -423,7 +443,7 @@ export function QuoteDialog() {
             className="bg-[#C8A44D] hover:bg-[#B8943F] text-white"
           >
             {submitting && <Loader2 className="size-4 animate-spin" />}
-            Submit Quote Request
+            {submitting ? 'Sending request...' : 'Submit Quote Request'}
           </Button>
         </DialogFooter>
       </DialogContent>

@@ -1,13 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { ChevronRight, ArrowLeft, Package, Loader2 } from 'lucide-react';
+import { ChevronRight, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useNavigation } from '@/store/navigation';
 import { ProductDetail } from '@/components/products/ProductDetail';
 
 export function ProductDetailPage() {
-  const { selectedProductSku, closeProductDetail, selectedCategory } = useNavigation();
+  const { selectedProductSku, backToProducts, navigateTo } = useNavigation();
   const [productCategory, setProductCategory] = useState<string>('');
 
   // Fetch product to get category for breadcrumb
@@ -25,29 +25,14 @@ export function ProductDetailPage() {
       .catch(() => {});
   }, [selectedProductSku]);
 
-  const handleBack = closeProductDetail;
+  useEffect(() => {
+    if (!selectedProductSku) backToProducts();
+  }, [selectedProductSku, backToProducts]);
+
+  const handleBack = backToProducts;
 
   if (!selectedProductSku) {
-    return (
-      <div className="min-h-screen bg-[#FAFAFA] flex items-center justify-center">
-        <div className="text-center px-6">
-          <div className="flex items-center justify-center size-16 rounded-full bg-[#F3F4F6] mb-4 mx-auto">
-            <Package className="size-7 text-[#9CA3AF]" />
-          </div>
-          <h1 className="text-lg font-semibold text-[#111827]">Product not found</h1>
-          <p className="mt-2 text-sm text-[#6B7280]">
-            No product has been selected. Please browse our catalog to select a product.
-          </p>
-          <Button
-            onClick={handleBack}
-            className="mt-6 bg-[#111827] hover:bg-[#111827]/90 text-white"
-          >
-            <ArrowLeft className="size-4" />
-            Back to Products
-          </Button>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   const getCategoryLabel = (category: string) => {

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { useNavigation } from '@/store/navigation';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -39,7 +38,8 @@ const categories = [
 ];
 
 export default function RequestQuoteSection() {
-  const { openQuoteDialog } = useNavigation();
+  const [submitting, setSubmitting] = useState(false);
+  const [result, setResult] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -55,9 +55,31 @@ export default function RequestQuoteSection() {
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    openQuoteDialog(formData);
+    setSubmitting(true);
+    setResult('');
+    try {
+      const response = await fetch('/api/send-inquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name, phone: formData.phone, email: formData.email,
+          project_type: formData.projectType, category: formData.category,
+          quantity: formData.quantity, delivery_location: formData.location,
+          message: formData.message, source: 'Home Quote Section',
+          requirement_type: 'Quote Request', page_url: window.location.href,
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.message || 'Unable to send request.');
+      setResult(`Thank you. Your inquiry has been sent successfully. Request ID: ${data.request_id}. Our team will contact you soon.`);
+      setFormData({ name: '', phone: '', email: '', projectType: '', category: '', quantity: '', location: '', message: '' });
+    } catch (error) {
+      setResult(error instanceof Error ? error.message : 'Unable to send request.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -175,11 +197,13 @@ export default function RequestQuoteSection() {
             </div>
           </div>
           <div className="mt-8">
+            {result && <p className="mb-4 rounded-md border border-[#E5E7EB] bg-[#F9FAFB] p-3 text-sm text-[#374151]">{result}</p>}
             <Button
               type="submit"
+              disabled={submitting}
               className="h-11 bg-[#C8A44D] px-8 text-white hover:bg-[#B8943F] focus-visible:ring-[#C8A44D]/50"
             >
-              Submit Quote Request
+              {submitting ? 'Sending request...' : 'Submit Quote Request'}
             </Button>
           </div>
         </form>

@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Separator } from '@/components/ui/separator';
+import { CONTACT } from '@/lib/contact';
 import {
   Accordion,
   AccordionContent,
@@ -284,7 +285,11 @@ export function ServiceDetailPage() {
               >
                 Request Service Quote
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto">
+              <Button
+                variant="outline"
+                className="w-full sm:w-auto"
+                onClick={() => window.open(CONTACT.phoneHref, '_self')}
+              >
                 <Phone className="w-4 h-4 mr-1" /> Call Now
               </Button>
             </div>

@@ -1,17 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Chittety Construction | Construction Materials, Procurement & Vendor Solutions",
@@ -52,9 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${inter.variable} ${manrope.variable} antialiased bg-background text-foreground font-sans`}
-      >
+      <body className="antialiased bg-background text-foreground font-sans">
         {children}
         <Toaster />
       </body>

@@ -16,6 +16,7 @@ import {
 import { Separator } from '@/components/ui/separator';
 import { MapPin, Phone, Mail, Clock, Upload, Loader2, CheckCircle2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { CONTACT } from '@/lib/contact';
 
 const CATEGORY_OPTIONS = [
   'Plumbing & Bathroom',
@@ -53,20 +54,20 @@ const CONTACT_INFO = [
   {
     icon: MapPin,
     label: 'Address',
-    value: '6816 Outland Drive, Plano, Texas 75024',
+    value: CONTACT.address,
     href: null,
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '(469) 000-0000',
-    href: 'tel:+14690000000',
+    value: CONTACT.phoneDisplay,
+    href: CONTACT.phoneHref,
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@chittety.com',
-    href: 'mailto:info@chittety.com',
+    value: CONTACT.email,
+    href: CONTACT.emailHref,
   },
   {
     icon: Clock,
@@ -80,6 +81,7 @@ export function ContactPage() {
   const { toast } = useToast();
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [requestId, setRequestId] = useState('');
   const [fileName, setFileName] = useState('');
 
   const [form, setForm] = useState<FormData>({
@@ -100,10 +102,10 @@ export function ContactPage() {
   };
 
   const handleSubmit = async () => {
-    if (!form.name.trim() || !form.phone.trim() || !form.email.trim()) {
+    if (!form.name.trim() || !form.phone.trim()) {
       toast({
         title: 'Required fields',
-        description: 'Name, phone, and email are required.',
+        description: 'Name and phone are required.',
         variant: 'destructive',
       });
       return;
@@ -111,24 +113,37 @@ export function ContactPage() {
 
     setSubmitting(true);
     try {
-      const res = await fetch('/api/quote', {
+      const res = await fetch('/api/send-inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ...form,
-          quantity: parseInt(form.quantity) || 1,
+          name: form.name,
+          phone: form.phone,
+          email: form.email,
+          company_name: form.company,
+          product_sku: form.sku,
+          category: form.category,
+          quantity: form.quantity,
+          delivery_location: form.deliveryLocation,
+          project_type: form.projectType,
+          requirement_type: 'Contact Request',
+          source: 'Contact Page',
+          message: [form.message, fileName ? `Material list filename: ${fileName}` : ''].filter(Boolean).join('\n'),
+          page_url: window.location.href,
         }),
       });
 
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.error || 'Failed to submit');
+        throw new Error(data.message || 'Failed to send request');
       }
 
+      const data = await res.json();
+      setRequestId(data.request_id);
       setSubmitted(true);
       toast({
-        title: 'Request submitted successfully',
-        description: 'Our team will get back to you within 24 hours.',
+        title: 'Thank you. Your inquiry has been sent successfully.',
+        description: `Request ID: ${data.request_id}. Our team will contact you soon.`,
       });
     } catch (err) {
       toast({
@@ -152,8 +167,9 @@ export function ContactPage() {
             Thank You!
           </h1>
           <p className="text-text-secondary mb-2">
-            Your request has been submitted successfully. Our team will review your requirements and get back to you within 24 hours.
+            Your inquiry has been sent successfully. Our team will contact you soon.
           </p>
+          <p className="font-mono text-sm font-semibold text-foreground mb-2">Request ID: {requestId}</p>
           <p className="text-sm text-text-muted mb-8">
             If your matter is urgent, please call us directly during business hours.
           </p>
@@ -167,6 +183,7 @@ export function ContactPage() {
                 deliveryLocation: '', message: '',
               });
               setFileName('');
+              setRequestId('');
             }}
           >
             Submit Another Request
@@ -221,7 +238,7 @@ export function ContactPage() {
             <div className="rounded-xl border border-border bg-muted h-64 flex flex-col items-center justify-center text-text-muted">
               <MapPin className="w-8 h-8 mb-2" />
               <span className="text-sm font-medium">Google Maps</span>
-              <span className="text-xs mt-0.5">Plano, Texas 75024</span>
+              <span className="text-xs mt-0.5">Plano, TX 75023</span>
             </div>
           </div>
 
@@ -265,7 +282,7 @@ export function ContactPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-1.5">
                       <Label htmlFor="c-email">
-                        Email <span className="text-destructive">*</span>
+                        Email
                       </Label>
                       <Input
                         id="c-email"
@@ -404,7 +421,7 @@ export function ContactPage() {
                       className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-white h-10 px-8"
                     >
                       {submitting && <Loader2 className="w-4 h-4 animate-spin mr-2" />}
-                      Submit Quote Request
+                      {submitting ? 'Sending request...' : 'Submit Quote Request'}
                     </Button>
                   </div>
                 </div>
